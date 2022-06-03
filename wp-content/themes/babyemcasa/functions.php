@@ -19,6 +19,8 @@
 
     function add_scripts(){
         wp_enqueue_script('bootstrap_js', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.min.js',array(),5,true);
+        wp_enqueue_style('botstrap_css', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/css/bootstrap.min.css',5);
+        wp_enqueue_style('style', get_stylesheet_directory_uri() . '/style.css',1);
     }
 add_action('wp_enqueue_scripts','add_scripts');
 add_action('after_setup_theme','babyemcasa_setup');
