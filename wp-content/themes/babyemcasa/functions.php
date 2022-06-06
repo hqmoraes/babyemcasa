@@ -29,6 +29,20 @@
 
     }
 
+
+// Replaces the excerpt "Read More" text by a link
+function new_excerpt_more($more) {
+    global $post;
+ return '<a class="leiamais" href="'. get_permalink($post->ID) . '"> ... continue lendo.</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
+function wp_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'wp_excerpt_length');
+
+
     function add_scripts(){
         wp_enqueue_script('bootstrap_js', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.min.js',array(),5,true);
         wp_enqueue_style('botstrap_css', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/css/bootstrap.min.css',5);

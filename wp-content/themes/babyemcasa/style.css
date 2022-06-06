@@ -13,8 +13,10 @@ Text Domain: babyemcasa
 */
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amita&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amita&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 @media screen and (min-width: 200px) {
   html {
     font-size: 2.5vw;
@@ -39,6 +41,12 @@ Text Domain: babyemcasa
     height: 50%;
     width: 3rem;
   }
+  html header .menu {
+    z-index: 10;
+  }
+  html header .menu img {
+    filter: opacity(0.5);
+  }
   html header .textoLogo {
     font-size: 1rem;
     width: 3rem;
@@ -61,10 +69,27 @@ Text Domain: babyemcasa
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
     font-family: "Amita", cursive;
   }
+  html .blogTitulo {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  html .blogTitulo .tituloParts {
+    position: absolute;
+  }
+  html .blogTitulo .tituloParts h4 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 4rem;
+    color: #e0e1e9;
+    text-shadow: 2px 2px 5px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  html .blogTitulo .tituloParts p {
+    font-size: 0.8rem;
+    margin-top: -0.8rem !important;
+  }
   html .container_posts {
-    padding: 0.5rem;
     border: 2px solid #e7cee3;
-    margin-top: 1rem;
     position: relative;
   }
   html .container_posts .titulo_posts {
@@ -86,6 +111,11 @@ Text Domain: babyemcasa
   html .container_posts .resumo_posts h2 {
     font-size: 1.3rem;
   }
+  html .container_posts .resumo_posts .leiamais {
+    text-align: right;
+    color: #e4b4c2;
+    text-decoration: none;
+  }
   html .container_posts .infos_posts {
     background-color: #e0e1e9;
     position: absolute;
@@ -95,20 +125,17 @@ Text Domain: babyemcasa
   html .container_posts .infos_posts p {
     margin-bottom: 0;
     font-size: 0.8rem;
+    color: #e4b4c2;
+  }
+  html .container_posts .infos_posts a {
+    text-decoration: none;
+    color: #e4b4c2;
   }
   html .container_posts .branco {
     height: 3rem;
   }
-  html .container_posts .leiamais {
-    text-align: right;
-  }
-  html .container_posts .leiamais a {
-    color: #e4b4c2;
-  }
   html .container_post {
-    padding: 1rem;
     border: 2px solid #e7cee3;
-    margin-top: 1rem;
     position: relative;
   }
   html .container_post .titulo_posts {
@@ -143,6 +170,18 @@ Text Domain: babyemcasa
     height: 2rem;
     background-color: #e0e1e9;
     margin-top: 1rem;
+  }
+
+  .horizontalAds {
+    height: 6rem;
+    border: 1px solid #e0e1e9;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .verticalAds {
+    border: 1px solid #e0e1e9;
+    height: 100%;
   }
 }
 @media screen and (min-width: 576px) {
@@ -169,6 +208,12 @@ Text Domain: babyemcasa
     height: 50%;
     width: 3rem;
   }
+  html header .menu {
+    z-index: 10;
+  }
+  html header .menu img {
+    filter: opacity(0.5);
+  }
   html header .textoLogo {
     font-size: 1rem;
     width: 3rem;
@@ -191,10 +236,27 @@ Text Domain: babyemcasa
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
     font-family: "Amita", cursive;
   }
+  html .blogTitulo {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  html .blogTitulo .tituloParts {
+    position: absolute;
+  }
+  html .blogTitulo .tituloParts h4 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 4rem;
+    color: #e0e1e9;
+    text-shadow: 2px 2px 5px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  html .blogTitulo .tituloParts p {
+    font-size: 0.8rem;
+    margin-top: -0.8rem !important;
+  }
   html .container_posts {
-    padding: 0.5rem;
     border: 2px solid #e7cee3;
-    margin-top: 1rem;
     position: relative;
   }
   html .container_posts .titulo_posts {
@@ -216,6 +278,11 @@ Text Domain: babyemcasa
   html .container_posts .resumo_posts h2 {
     font-size: 1.3rem;
   }
+  html .container_posts .resumo_posts .leiamais {
+    text-align: right;
+    color: #e4b4c2;
+    text-decoration: none;
+  }
   html .container_posts .infos_posts {
     background-color: #e0e1e9;
     position: absolute;
@@ -225,20 +292,17 @@ Text Domain: babyemcasa
   html .container_posts .infos_posts p {
     margin-bottom: 0;
     font-size: 0.8rem;
+    color: #e4b4c2;
+  }
+  html .container_posts .infos_posts a {
+    text-decoration: none;
+    color: #e4b4c2;
   }
   html .container_posts .branco {
     height: 3rem;
   }
-  html .container_posts .leiamais {
-    text-align: right;
-  }
-  html .container_posts .leiamais a {
-    color: #e4b4c2;
-  }
   html .container_post {
-    padding: 1rem;
     border: 2px solid #e7cee3;
-    margin-top: 1rem;
     position: relative;
   }
   html .container_post .titulo_posts {
@@ -273,6 +337,18 @@ Text Domain: babyemcasa
     height: 2rem;
     background-color: #e0e1e9;
     margin-top: 1rem;
+  }
+
+  .horizontalAds {
+    height: 6rem;
+    border: 1px solid #e0e1e9;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .verticalAds {
+    border: 1px solid #e0e1e9;
+    height: 100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -299,6 +375,12 @@ Text Domain: babyemcasa
     height: 50%;
     width: 3rem;
   }
+  html header .menu {
+    z-index: 10;
+  }
+  html header .menu img {
+    filter: opacity(0.5);
+  }
   html header .textoLogo {
     font-size: 1rem;
     width: 3rem;
@@ -321,10 +403,27 @@ Text Domain: babyemcasa
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
     font-family: "Amita", cursive;
   }
+  html .blogTitulo {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  html .blogTitulo .tituloParts {
+    position: absolute;
+  }
+  html .blogTitulo .tituloParts h4 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 4rem;
+    color: #e0e1e9;
+    text-shadow: 2px 2px 5px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  html .blogTitulo .tituloParts p {
+    font-size: 0.8rem;
+    margin-top: -0.8rem !important;
+  }
   html .container_posts {
-    padding: 0.5rem;
     border: 2px solid #e7cee3;
-    margin-top: 1rem;
     position: relative;
   }
   html .container_posts .titulo_posts {
@@ -346,6 +445,11 @@ Text Domain: babyemcasa
   html .container_posts .resumo_posts h2 {
     font-size: 1.3rem;
   }
+  html .container_posts .resumo_posts .leiamais {
+    text-align: right;
+    color: #e4b4c2;
+    text-decoration: none;
+  }
   html .container_posts .infos_posts {
     background-color: #e0e1e9;
     position: absolute;
@@ -355,20 +459,17 @@ Text Domain: babyemcasa
   html .container_posts .infos_posts p {
     margin-bottom: 0;
     font-size: 0.8rem;
+    color: #e4b4c2;
+  }
+  html .container_posts .infos_posts a {
+    text-decoration: none;
+    color: #e4b4c2;
   }
   html .container_posts .branco {
     height: 3rem;
   }
-  html .container_posts .leiamais {
-    text-align: right;
-  }
-  html .container_posts .leiamais a {
-    color: #e4b4c2;
-  }
   html .container_post {
-    padding: 1rem;
     border: 2px solid #e7cee3;
-    margin-top: 1rem;
     position: relative;
   }
   html .container_post .titulo_posts {
@@ -403,6 +504,18 @@ Text Domain: babyemcasa
     height: 2rem;
     background-color: #e0e1e9;
     margin-top: 1rem;
+  }
+
+  .horizontalAds {
+    height: 6rem;
+    border: 1px solid #e0e1e9;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .verticalAds {
+    border: 1px solid #e0e1e9;
+    height: 100%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -429,6 +542,12 @@ Text Domain: babyemcasa
     height: 50%;
     width: 3rem;
   }
+  html header .menu {
+    z-index: 10;
+  }
+  html header .menu img {
+    filter: opacity(0.5);
+  }
   html header .textoLogo {
     font-size: 1rem;
     width: 3rem;
@@ -451,10 +570,27 @@ Text Domain: babyemcasa
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
     font-family: "Amita", cursive;
   }
+  html .blogTitulo {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  html .blogTitulo .tituloParts {
+    position: absolute;
+  }
+  html .blogTitulo .tituloParts h4 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 4rem;
+    color: #e0e1e9;
+    text-shadow: 2px 2px 5px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  html .blogTitulo .tituloParts p {
+    font-size: 0.8rem;
+    margin-top: -0.8rem !important;
+  }
   html .container_posts {
-    padding: 0.5rem;
     border: 2px solid #e7cee3;
-    margin-top: 1rem;
     position: relative;
   }
   html .container_posts .titulo_posts {
@@ -476,6 +612,11 @@ Text Domain: babyemcasa
   html .container_posts .resumo_posts h2 {
     font-size: 1.3rem;
   }
+  html .container_posts .resumo_posts .leiamais {
+    text-align: right;
+    color: #e4b4c2;
+    text-decoration: none;
+  }
   html .container_posts .infos_posts {
     background-color: #e0e1e9;
     position: absolute;
@@ -485,20 +626,17 @@ Text Domain: babyemcasa
   html .container_posts .infos_posts p {
     margin-bottom: 0;
     font-size: 0.8rem;
+    color: #e4b4c2;
+  }
+  html .container_posts .infos_posts a {
+    text-decoration: none;
+    color: #e4b4c2;
   }
   html .container_posts .branco {
     height: 3rem;
   }
-  html .container_posts .leiamais {
-    text-align: right;
-  }
-  html .container_posts .leiamais a {
-    color: #e4b4c2;
-  }
   html .container_post {
-    padding: 1rem;
     border: 2px solid #e7cee3;
-    margin-top: 1rem;
     position: relative;
   }
   html .container_post .titulo_posts {
@@ -533,6 +671,18 @@ Text Domain: babyemcasa
     height: 2rem;
     background-color: #e0e1e9;
     margin-top: 1rem;
+  }
+
+  .horizontalAds {
+    height: 6rem;
+    border: 1px solid #e0e1e9;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .verticalAds {
+    border: 1px solid #e0e1e9;
+    height: 100%;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -559,6 +709,12 @@ Text Domain: babyemcasa
     height: 50%;
     width: 3rem;
   }
+  html header .menu {
+    z-index: 10;
+  }
+  html header .menu img {
+    filter: opacity(0.5);
+  }
   html header .textoLogo {
     font-size: 1rem;
     width: 3rem;
@@ -581,10 +737,27 @@ Text Domain: babyemcasa
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
     font-family: "Amita", cursive;
   }
+  html .blogTitulo {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  html .blogTitulo .tituloParts {
+    position: absolute;
+  }
+  html .blogTitulo .tituloParts h4 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 4rem;
+    color: #e0e1e9;
+    text-shadow: 2px 2px 5px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  html .blogTitulo .tituloParts p {
+    font-size: 0.8rem;
+    margin-top: -0.8rem !important;
+  }
   html .container_posts {
-    padding: 0.5rem;
     border: 2px solid #e7cee3;
-    margin-top: 1rem;
     position: relative;
   }
   html .container_posts .titulo_posts {
@@ -606,6 +779,11 @@ Text Domain: babyemcasa
   html .container_posts .resumo_posts h2 {
     font-size: 1.3rem;
   }
+  html .container_posts .resumo_posts .leiamais {
+    text-align: right;
+    color: #e4b4c2;
+    text-decoration: none;
+  }
   html .container_posts .infos_posts {
     background-color: #e0e1e9;
     position: absolute;
@@ -615,20 +793,17 @@ Text Domain: babyemcasa
   html .container_posts .infos_posts p {
     margin-bottom: 0;
     font-size: 0.8rem;
+    color: #e4b4c2;
+  }
+  html .container_posts .infos_posts a {
+    text-decoration: none;
+    color: #e4b4c2;
   }
   html .container_posts .branco {
     height: 3rem;
   }
-  html .container_posts .leiamais {
-    text-align: right;
-  }
-  html .container_posts .leiamais a {
-    color: #e4b4c2;
-  }
   html .container_post {
-    padding: 1rem;
     border: 2px solid #e7cee3;
-    margin-top: 1rem;
     position: relative;
   }
   html .container_post .titulo_posts {
@@ -663,6 +838,18 @@ Text Domain: babyemcasa
     height: 2rem;
     background-color: #e0e1e9;
     margin-top: 1rem;
+  }
+
+  .horizontalAds {
+    height: 6rem;
+    border: 1px solid #e0e1e9;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .verticalAds {
+    border: 1px solid #e0e1e9;
+    height: 100%;
   }
 }
 
