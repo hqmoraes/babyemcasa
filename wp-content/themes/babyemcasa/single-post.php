@@ -8,11 +8,11 @@
                     <h1><?php the_title(); ?></h1>
                 </div>
                 <div class="imagem_post col-12"><?php echo get_the_post_thumbnail() ?></div>
-                <div class="resumo_post col-12"><?php echo get_the_content();  ?></div>
+                <div class="conteudo_post col-12"><?php echo get_the_content();  ?></div>
                 <div class="branco"></div>
                 <div class="infos_post col-12 d-flex align-items-center justify-content-between p-3">
                     <p><?php echo get_the_modified_date(); ?></p> 
-                    <p><?php echo get_the_category()[0]->name; ?></p>
+                    <a href="<?php echo get_category_link(get_cat_ID(get_the_category()[0]->name))?>"><p><?php echo get_the_category()[0]->name; ?></p></a>
                 </div>
             </div><?php
     ?>

@@ -13,7 +13,7 @@
     <div class="container h-100">
         <div class="row h-100">
             <div class="col-4 d-flex align-items-center h-100 ps-4">
-                <p class="logoTexto"><?php echo get_bloginfo('name') ?></p>
+                <p class="logoTexto"><img src="https://babyemcasa.com/wp-content/uploads/2022/05/baby-svgrepo-com.svg" alt="Baby em casa"></p><p class="textoLogo"><?php echo get_bloginfo('name') ?></p>
             </div>
             <div class="col-4 h-100">
                 
@@ -24,3 +24,4 @@
         </div>
     </div>
 </header>    
+
