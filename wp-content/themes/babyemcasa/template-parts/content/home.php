@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container principal">
     <div class="row">
             <div class="col-12 mt-4">
                 <?php query_posts(array('orderby'=>'title','order'=>'DESC'));
@@ -28,6 +28,5 @@
                                 } 
                             } ?>
             </div>
-
     </div>
 </div>

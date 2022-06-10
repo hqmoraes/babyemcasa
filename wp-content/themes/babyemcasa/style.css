@@ -20,34 +20,82 @@ Text Domain: babyemcasa
 @media screen and (min-width: 200px) {
   html {
     font-size: 2.5vw;
+  }
+
+  html {
     scroll-padding-top: 4rem;
   }
+  html body {
+    position: relative;
+  }
+  html .outrosSites {
+    top: 1rem;
+    right: 0;
+    z-index: 2;
+    background: rgb(255, 255, 255);
+    width: fit-content;
+    border: 5px solid #e0e1e9;
+    position: fixed;
+  }
+  html .outrosSites h4 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 2rem;
+    color: #e0e1e9;
+    text-shadow: 2px 2px 5px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  html .outrosSites ul li {
+    list-style-type: none;
+  }
+  html .outrosSites ul li a {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    text-decoration: none;
+  }
+  html .outrosSites .botaoFechar {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: none;
+    width: 1rem;
+    height: 1rem;
+    background-image: url("https://babyemcasa.com/wp-content/uploads/2022/06/cancel-close-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  html .esconder {
+    display: none;
+  }
+  html .exibir {
+    display: block;
+  }
   html header {
+    position: sticky;
+    top: 0;
     background-image: linear-gradient(to right, #e4b4c2, #e7cee3);
+    z-index: 1;
+  }
+  html header .topo {
     height: 4rem;
   }
-  html header .logoTexto {
+  html header a {
+    display: flex;
+    text-decoration: none;
+  }
+  html header a .logoTexto {
     font-weight: bold;
   }
-  html header p {
+  html header a p {
     margin-bottom: 0;
     font-size: 1.5rem;
   }
-  html header a {
+  html header a img {
     height: 100%;
-    display: flex;
-  }
-  html header img {
-    height: 50%;
     width: 3rem;
   }
-  html header .menu {
-    z-index: 10;
-  }
-  html header .menu img {
-    filter: opacity(0.5);
-  }
-  html header .textoLogo {
+  html header a .textoLogo {
     font-size: 1rem;
     width: 3rem;
     line-height: 1rem;
@@ -55,26 +103,38 @@ Text Domain: babyemcasa
     padding-top: 1.8rem;
     position: relative;
   }
-  html header .textoLogo .logoP1 {
+  html header a .textoLogo .logoP1 {
     transform: rotate(-45deg);
     position: absolute;
     left: -20%;
     font-size: 0.6rem;
     top: 75%;
   }
-  html header .textoLogo .logoP2 {
+  html header a .textoLogo .logoP2 {
     font-weight: bold;
     font-size: 2rem;
     color: #e0e1e9;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
     font-family: "Amita", cursive;
   }
+  html header .menu {
+    z-index: 1;
+    border: none;
+    background: none;
+  }
+  html header .menu img {
+    height: 2rem;
+    filter: opacity(0.5);
+  }
   html .blogTitulo {
-    position: relative;
-    margin-bottom: 2rem;
+    position: fixed;
+    z-index: 1;
+    height: 5rem;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), 80%, rgba(255, 255, 255, 0));
   }
   html .blogTitulo .tituloParts {
     position: absolute;
+    top: -3rem;
   }
   html .blogTitulo .tituloParts h4 {
     font-family: "Luckiest Guy", cursive;
@@ -88,9 +148,15 @@ Text Domain: babyemcasa
     font-size: 0.8rem;
     margin-top: -0.8rem !important;
   }
+  html .principal {
+    scroll-padding-top: 4rem;
+    margin-top: 2rem;
+    z-index: -1;
+  }
   html .container_posts {
     border: 2px solid #e7cee3;
     position: relative;
+    min-height: 16rem;
   }
   html .container_posts .titulo_posts {
     width: 100%;
@@ -125,11 +191,11 @@ Text Domain: babyemcasa
   html .container_posts .infos_posts p {
     margin-bottom: 0;
     font-size: 0.8rem;
-    color: #e4b4c2;
+    color: rgba(0, 0, 0, 0.599);
   }
   html .container_posts .infos_posts a {
     text-decoration: none;
-    color: #e4b4c2;
+    color: rgba(0, 0, 0, 0.599);
   }
   html .container_posts .branco {
     height: 3rem;
@@ -137,6 +203,7 @@ Text Domain: babyemcasa
   html .container_post {
     border: 2px solid #e7cee3;
     position: relative;
+    margin-top: 4rem;
   }
   html .container_post .titulo_posts {
     width: 100%;
@@ -161,60 +228,171 @@ Text Domain: babyemcasa
   html .container_post .infos_post p {
     margin-bottom: 0;
     font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.599);
   }
   html .container_post .branco {
     height: 3rem;
   }
-
-  footer {
-    height: 2rem;
+  html footer {
+    height: 6rem;
+    display: flex;
+    align-items: center;
     background-color: #e0e1e9;
-    margin-top: 1rem;
+    width: 100%;
+    bottom: 0;
   }
-
-  .horizontalAds {
+  html footer a {
+    display: flex;
+    text-decoration: none;
+  }
+  html footer a .logoTexto {
+    font-weight: bold;
+  }
+  html footer a p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+  html footer a img {
+    height: 100%;
+    width: 1.8rem;
+  }
+  html footer a .textoLogo {
+    font-size: 0.6rem;
+    width: 1.8rem;
+    line-height: 0.6rem;
+    padding-left: 0.12rem;
+    padding-top: 1.08rem;
+    position: relative;
+  }
+  html footer a .textoLogo .logoP1 {
+    transform: rotate(-45deg);
+    position: absolute;
+    left: -20%;
+    font-size: 0.36rem;
+    top: 75%;
+  }
+  html footer a .textoLogo .logoP2 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #e0e1e9;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
+    font-family: "Amita", cursive;
+  }
+  html .horizontalAds {
     height: 6rem;
     border: 1px solid #e0e1e9;
     width: 100%;
     margin: 0 auto;
   }
-
-  .verticalAds {
+  html .verticalAds {
     border: 1px solid #e0e1e9;
     height: 100%;
+  }
+  html .adsDireita {
+    right: 2.5rem;
+  }
+  html .verticalAdsInterno {
+    margin-top: 4rem;
+    border: 1px solid #e0e1e9;
+  }
+  html .categoryPL {
+    margin-top: 5rem;
+  }
+  html .container_category {
+    border: 2px solid #e7cee3;
+    position: relative;
+  }
+  html .container_category .titulo_posts {
+    width: 100%;
+  }
+  html .container_category .titulo_posts h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  html .container_category .titulo_posts a {
+    text-decoration: none;
+    color: #e4b4c2;
   }
 }
 @media screen and (min-width: 576px) {
   html {
     font-size: 2vw;
+  }
+
+  html {
     scroll-padding-top: 4rem;
   }
+  html body {
+    position: relative;
+  }
+  html .outrosSites {
+    top: 1rem;
+    right: 0;
+    z-index: 2;
+    background: rgb(255, 255, 255);
+    width: fit-content;
+    border: 5px solid #e0e1e9;
+    position: fixed;
+  }
+  html .outrosSites h4 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 2rem;
+    color: #e0e1e9;
+    text-shadow: 2px 2px 5px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  html .outrosSites ul li {
+    list-style-type: none;
+  }
+  html .outrosSites ul li a {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    text-decoration: none;
+  }
+  html .outrosSites .botaoFechar {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: none;
+    width: 1rem;
+    height: 1rem;
+    background-image: url("https://babyemcasa.com/wp-content/uploads/2022/06/cancel-close-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  html .esconder {
+    display: none;
+  }
+  html .exibir {
+    display: block;
+  }
   html header {
+    position: sticky;
+    top: 0;
     background-image: linear-gradient(to right, #e4b4c2, #e7cee3);
+    z-index: 1;
+  }
+  html header .topo {
     height: 4rem;
   }
-  html header .logoTexto {
+  html header a {
+    display: flex;
+    text-decoration: none;
+  }
+  html header a .logoTexto {
     font-weight: bold;
   }
-  html header p {
+  html header a p {
     margin-bottom: 0;
     font-size: 1.5rem;
   }
-  html header a {
+  html header a img {
     height: 100%;
-    display: flex;
-  }
-  html header img {
-    height: 50%;
     width: 3rem;
   }
-  html header .menu {
-    z-index: 10;
-  }
-  html header .menu img {
-    filter: opacity(0.5);
-  }
-  html header .textoLogo {
+  html header a .textoLogo {
     font-size: 1rem;
     width: 3rem;
     line-height: 1rem;
@@ -222,26 +400,38 @@ Text Domain: babyemcasa
     padding-top: 1.8rem;
     position: relative;
   }
-  html header .textoLogo .logoP1 {
+  html header a .textoLogo .logoP1 {
     transform: rotate(-45deg);
     position: absolute;
     left: -20%;
     font-size: 0.6rem;
     top: 75%;
   }
-  html header .textoLogo .logoP2 {
+  html header a .textoLogo .logoP2 {
     font-weight: bold;
     font-size: 2rem;
     color: #e0e1e9;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
     font-family: "Amita", cursive;
   }
+  html header .menu {
+    z-index: 1;
+    border: none;
+    background: none;
+  }
+  html header .menu img {
+    height: 2rem;
+    filter: opacity(0.5);
+  }
   html .blogTitulo {
-    position: relative;
-    margin-bottom: 2rem;
+    position: fixed;
+    z-index: 1;
+    height: 5rem;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), 80%, rgba(255, 255, 255, 0));
   }
   html .blogTitulo .tituloParts {
     position: absolute;
+    top: -3rem;
   }
   html .blogTitulo .tituloParts h4 {
     font-family: "Luckiest Guy", cursive;
@@ -255,9 +445,15 @@ Text Domain: babyemcasa
     font-size: 0.8rem;
     margin-top: -0.8rem !important;
   }
+  html .principal {
+    scroll-padding-top: 4rem;
+    margin-top: 2rem;
+    z-index: -1;
+  }
   html .container_posts {
     border: 2px solid #e7cee3;
     position: relative;
+    min-height: 16rem;
   }
   html .container_posts .titulo_posts {
     width: 100%;
@@ -292,11 +488,11 @@ Text Domain: babyemcasa
   html .container_posts .infos_posts p {
     margin-bottom: 0;
     font-size: 0.8rem;
-    color: #e4b4c2;
+    color: rgba(0, 0, 0, 0.599);
   }
   html .container_posts .infos_posts a {
     text-decoration: none;
-    color: #e4b4c2;
+    color: rgba(0, 0, 0, 0.599);
   }
   html .container_posts .branco {
     height: 3rem;
@@ -304,6 +500,7 @@ Text Domain: babyemcasa
   html .container_post {
     border: 2px solid #e7cee3;
     position: relative;
+    margin-top: 4rem;
   }
   html .container_post .titulo_posts {
     width: 100%;
@@ -328,60 +525,171 @@ Text Domain: babyemcasa
   html .container_post .infos_post p {
     margin-bottom: 0;
     font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.599);
   }
   html .container_post .branco {
     height: 3rem;
   }
-
-  footer {
-    height: 2rem;
+  html footer {
+    height: 6rem;
+    display: flex;
+    align-items: center;
     background-color: #e0e1e9;
-    margin-top: 1rem;
+    width: 100%;
+    bottom: 0;
   }
-
-  .horizontalAds {
+  html footer a {
+    display: flex;
+    text-decoration: none;
+  }
+  html footer a .logoTexto {
+    font-weight: bold;
+  }
+  html footer a p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+  html footer a img {
+    height: 100%;
+    width: 1.8rem;
+  }
+  html footer a .textoLogo {
+    font-size: 0.6rem;
+    width: 1.8rem;
+    line-height: 0.6rem;
+    padding-left: 0.12rem;
+    padding-top: 1.08rem;
+    position: relative;
+  }
+  html footer a .textoLogo .logoP1 {
+    transform: rotate(-45deg);
+    position: absolute;
+    left: -20%;
+    font-size: 0.36rem;
+    top: 75%;
+  }
+  html footer a .textoLogo .logoP2 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #e0e1e9;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
+    font-family: "Amita", cursive;
+  }
+  html .horizontalAds {
     height: 6rem;
     border: 1px solid #e0e1e9;
     width: 100%;
     margin: 0 auto;
   }
-
-  .verticalAds {
+  html .verticalAds {
     border: 1px solid #e0e1e9;
     height: 100%;
+  }
+  html .adsDireita {
+    right: 2.5rem;
+  }
+  html .verticalAdsInterno {
+    margin-top: 4rem;
+    border: 1px solid #e0e1e9;
+  }
+  html .categoryPL {
+    margin-top: 5rem;
+  }
+  html .container_category {
+    border: 2px solid #e7cee3;
+    position: relative;
+  }
+  html .container_category .titulo_posts {
+    width: 100%;
+  }
+  html .container_category .titulo_posts h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  html .container_category .titulo_posts a {
+    text-decoration: none;
+    color: #e4b4c2;
   }
 }
 @media screen and (min-width: 768px) {
   html {
     font-size: 1.8vw;
+  }
+
+  html {
     scroll-padding-top: 4rem;
   }
+  html body {
+    position: relative;
+  }
+  html .outrosSites {
+    top: 1rem;
+    right: 0;
+    z-index: 2;
+    background: rgb(255, 255, 255);
+    width: fit-content;
+    border: 5px solid #e0e1e9;
+    position: fixed;
+  }
+  html .outrosSites h4 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 2rem;
+    color: #e0e1e9;
+    text-shadow: 2px 2px 5px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  html .outrosSites ul li {
+    list-style-type: none;
+  }
+  html .outrosSites ul li a {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    text-decoration: none;
+  }
+  html .outrosSites .botaoFechar {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: none;
+    width: 1rem;
+    height: 1rem;
+    background-image: url("https://babyemcasa.com/wp-content/uploads/2022/06/cancel-close-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  html .esconder {
+    display: none;
+  }
+  html .exibir {
+    display: block;
+  }
   html header {
+    position: sticky;
+    top: 0;
     background-image: linear-gradient(to right, #e4b4c2, #e7cee3);
+    z-index: 1;
+  }
+  html header .topo {
     height: 4rem;
   }
-  html header .logoTexto {
+  html header a {
+    display: flex;
+    text-decoration: none;
+  }
+  html header a .logoTexto {
     font-weight: bold;
   }
-  html header p {
+  html header a p {
     margin-bottom: 0;
     font-size: 1.5rem;
   }
-  html header a {
+  html header a img {
     height: 100%;
-    display: flex;
-  }
-  html header img {
-    height: 50%;
     width: 3rem;
   }
-  html header .menu {
-    z-index: 10;
-  }
-  html header .menu img {
-    filter: opacity(0.5);
-  }
-  html header .textoLogo {
+  html header a .textoLogo {
     font-size: 1rem;
     width: 3rem;
     line-height: 1rem;
@@ -389,26 +697,38 @@ Text Domain: babyemcasa
     padding-top: 1.8rem;
     position: relative;
   }
-  html header .textoLogo .logoP1 {
+  html header a .textoLogo .logoP1 {
     transform: rotate(-45deg);
     position: absolute;
     left: -20%;
     font-size: 0.6rem;
     top: 75%;
   }
-  html header .textoLogo .logoP2 {
+  html header a .textoLogo .logoP2 {
     font-weight: bold;
     font-size: 2rem;
     color: #e0e1e9;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
     font-family: "Amita", cursive;
   }
+  html header .menu {
+    z-index: 1;
+    border: none;
+    background: none;
+  }
+  html header .menu img {
+    height: 2rem;
+    filter: opacity(0.5);
+  }
   html .blogTitulo {
-    position: relative;
-    margin-bottom: 2rem;
+    position: fixed;
+    z-index: 1;
+    height: 5rem;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), 80%, rgba(255, 255, 255, 0));
   }
   html .blogTitulo .tituloParts {
     position: absolute;
+    top: -3rem;
   }
   html .blogTitulo .tituloParts h4 {
     font-family: "Luckiest Guy", cursive;
@@ -422,9 +742,15 @@ Text Domain: babyemcasa
     font-size: 0.8rem;
     margin-top: -0.8rem !important;
   }
+  html .principal {
+    scroll-padding-top: 4rem;
+    margin-top: 2rem;
+    z-index: -1;
+  }
   html .container_posts {
     border: 2px solid #e7cee3;
     position: relative;
+    min-height: 16rem;
   }
   html .container_posts .titulo_posts {
     width: 100%;
@@ -459,11 +785,11 @@ Text Domain: babyemcasa
   html .container_posts .infos_posts p {
     margin-bottom: 0;
     font-size: 0.8rem;
-    color: #e4b4c2;
+    color: rgba(0, 0, 0, 0.599);
   }
   html .container_posts .infos_posts a {
     text-decoration: none;
-    color: #e4b4c2;
+    color: rgba(0, 0, 0, 0.599);
   }
   html .container_posts .branco {
     height: 3rem;
@@ -471,6 +797,7 @@ Text Domain: babyemcasa
   html .container_post {
     border: 2px solid #e7cee3;
     position: relative;
+    margin-top: 4rem;
   }
   html .container_post .titulo_posts {
     width: 100%;
@@ -495,60 +822,171 @@ Text Domain: babyemcasa
   html .container_post .infos_post p {
     margin-bottom: 0;
     font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.599);
   }
   html .container_post .branco {
     height: 3rem;
   }
-
-  footer {
-    height: 2rem;
+  html footer {
+    height: 6rem;
+    display: flex;
+    align-items: center;
     background-color: #e0e1e9;
-    margin-top: 1rem;
+    width: 100%;
+    bottom: 0;
   }
-
-  .horizontalAds {
+  html footer a {
+    display: flex;
+    text-decoration: none;
+  }
+  html footer a .logoTexto {
+    font-weight: bold;
+  }
+  html footer a p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+  html footer a img {
+    height: 100%;
+    width: 1.8rem;
+  }
+  html footer a .textoLogo {
+    font-size: 0.6rem;
+    width: 1.8rem;
+    line-height: 0.6rem;
+    padding-left: 0.12rem;
+    padding-top: 1.08rem;
+    position: relative;
+  }
+  html footer a .textoLogo .logoP1 {
+    transform: rotate(-45deg);
+    position: absolute;
+    left: -20%;
+    font-size: 0.36rem;
+    top: 75%;
+  }
+  html footer a .textoLogo .logoP2 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #e0e1e9;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
+    font-family: "Amita", cursive;
+  }
+  html .horizontalAds {
     height: 6rem;
     border: 1px solid #e0e1e9;
     width: 100%;
     margin: 0 auto;
   }
-
-  .verticalAds {
+  html .verticalAds {
     border: 1px solid #e0e1e9;
     height: 100%;
+  }
+  html .adsDireita {
+    right: 2.5rem;
+  }
+  html .verticalAdsInterno {
+    margin-top: 4rem;
+    border: 1px solid #e0e1e9;
+  }
+  html .categoryPL {
+    margin-top: 5rem;
+  }
+  html .container_category {
+    border: 2px solid #e7cee3;
+    position: relative;
+  }
+  html .container_category .titulo_posts {
+    width: 100%;
+  }
+  html .container_category .titulo_posts h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  html .container_category .titulo_posts a {
+    text-decoration: none;
+    color: #e4b4c2;
   }
 }
 @media screen and (min-width: 992px) {
   html {
     font-size: 1.5vw;
+  }
+
+  html {
     scroll-padding-top: 4rem;
   }
+  html body {
+    position: relative;
+  }
+  html .outrosSites {
+    top: 1rem;
+    right: 0;
+    z-index: 2;
+    background: rgb(255, 255, 255);
+    width: fit-content;
+    border: 5px solid #e0e1e9;
+    position: fixed;
+  }
+  html .outrosSites h4 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 2rem;
+    color: #e0e1e9;
+    text-shadow: 2px 2px 5px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  html .outrosSites ul li {
+    list-style-type: none;
+  }
+  html .outrosSites ul li a {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    text-decoration: none;
+  }
+  html .outrosSites .botaoFechar {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: none;
+    width: 1rem;
+    height: 1rem;
+    background-image: url("https://babyemcasa.com/wp-content/uploads/2022/06/cancel-close-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  html .esconder {
+    display: none;
+  }
+  html .exibir {
+    display: block;
+  }
   html header {
+    position: sticky;
+    top: 0;
     background-image: linear-gradient(to right, #e4b4c2, #e7cee3);
+    z-index: 1;
+  }
+  html header .topo {
     height: 4rem;
   }
-  html header .logoTexto {
+  html header a {
+    display: flex;
+    text-decoration: none;
+  }
+  html header a .logoTexto {
     font-weight: bold;
   }
-  html header p {
+  html header a p {
     margin-bottom: 0;
     font-size: 1.5rem;
   }
-  html header a {
+  html header a img {
     height: 100%;
-    display: flex;
-  }
-  html header img {
-    height: 50%;
     width: 3rem;
   }
-  html header .menu {
-    z-index: 10;
-  }
-  html header .menu img {
-    filter: opacity(0.5);
-  }
-  html header .textoLogo {
+  html header a .textoLogo {
     font-size: 1rem;
     width: 3rem;
     line-height: 1rem;
@@ -556,26 +994,38 @@ Text Domain: babyemcasa
     padding-top: 1.8rem;
     position: relative;
   }
-  html header .textoLogo .logoP1 {
+  html header a .textoLogo .logoP1 {
     transform: rotate(-45deg);
     position: absolute;
     left: -20%;
     font-size: 0.6rem;
     top: 75%;
   }
-  html header .textoLogo .logoP2 {
+  html header a .textoLogo .logoP2 {
     font-weight: bold;
     font-size: 2rem;
     color: #e0e1e9;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
     font-family: "Amita", cursive;
   }
+  html header .menu {
+    z-index: 1;
+    border: none;
+    background: none;
+  }
+  html header .menu img {
+    height: 2rem;
+    filter: opacity(0.5);
+  }
   html .blogTitulo {
-    position: relative;
-    margin-bottom: 2rem;
+    position: fixed;
+    z-index: 1;
+    height: 5rem;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), 80%, rgba(255, 255, 255, 0));
   }
   html .blogTitulo .tituloParts {
     position: absolute;
+    top: -3rem;
   }
   html .blogTitulo .tituloParts h4 {
     font-family: "Luckiest Guy", cursive;
@@ -589,9 +1039,15 @@ Text Domain: babyemcasa
     font-size: 0.8rem;
     margin-top: -0.8rem !important;
   }
+  html .principal {
+    scroll-padding-top: 4rem;
+    margin-top: 2rem;
+    z-index: -1;
+  }
   html .container_posts {
     border: 2px solid #e7cee3;
     position: relative;
+    min-height: 16rem;
   }
   html .container_posts .titulo_posts {
     width: 100%;
@@ -626,11 +1082,11 @@ Text Domain: babyemcasa
   html .container_posts .infos_posts p {
     margin-bottom: 0;
     font-size: 0.8rem;
-    color: #e4b4c2;
+    color: rgba(0, 0, 0, 0.599);
   }
   html .container_posts .infos_posts a {
     text-decoration: none;
-    color: #e4b4c2;
+    color: rgba(0, 0, 0, 0.599);
   }
   html .container_posts .branco {
     height: 3rem;
@@ -638,6 +1094,7 @@ Text Domain: babyemcasa
   html .container_post {
     border: 2px solid #e7cee3;
     position: relative;
+    margin-top: 4rem;
   }
   html .container_post .titulo_posts {
     width: 100%;
@@ -662,60 +1119,171 @@ Text Domain: babyemcasa
   html .container_post .infos_post p {
     margin-bottom: 0;
     font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.599);
   }
   html .container_post .branco {
     height: 3rem;
   }
-
-  footer {
-    height: 2rem;
+  html footer {
+    height: 6rem;
+    display: flex;
+    align-items: center;
     background-color: #e0e1e9;
-    margin-top: 1rem;
+    width: 100%;
+    bottom: 0;
   }
-
-  .horizontalAds {
+  html footer a {
+    display: flex;
+    text-decoration: none;
+  }
+  html footer a .logoTexto {
+    font-weight: bold;
+  }
+  html footer a p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+  html footer a img {
+    height: 100%;
+    width: 1.8rem;
+  }
+  html footer a .textoLogo {
+    font-size: 0.6rem;
+    width: 1.8rem;
+    line-height: 0.6rem;
+    padding-left: 0.12rem;
+    padding-top: 1.08rem;
+    position: relative;
+  }
+  html footer a .textoLogo .logoP1 {
+    transform: rotate(-45deg);
+    position: absolute;
+    left: -20%;
+    font-size: 0.36rem;
+    top: 75%;
+  }
+  html footer a .textoLogo .logoP2 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #e0e1e9;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
+    font-family: "Amita", cursive;
+  }
+  html .horizontalAds {
     height: 6rem;
     border: 1px solid #e0e1e9;
     width: 100%;
     margin: 0 auto;
   }
-
-  .verticalAds {
+  html .verticalAds {
     border: 1px solid #e0e1e9;
     height: 100%;
+  }
+  html .adsDireita {
+    right: 2.5rem;
+  }
+  html .verticalAdsInterno {
+    margin-top: 4rem;
+    border: 1px solid #e0e1e9;
+  }
+  html .categoryPL {
+    margin-top: 5rem;
+  }
+  html .container_category {
+    border: 2px solid #e7cee3;
+    position: relative;
+  }
+  html .container_category .titulo_posts {
+    width: 100%;
+  }
+  html .container_category .titulo_posts h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  html .container_category .titulo_posts a {
+    text-decoration: none;
+    color: #e4b4c2;
   }
 }
 @media screen and (min-width: 1400px) {
   html {
     font-size: 30px;
+  }
+
+  html {
     scroll-padding-top: 4rem;
   }
+  html body {
+    position: relative;
+  }
+  html .outrosSites {
+    top: 1rem;
+    right: 0;
+    z-index: 2;
+    background: rgb(255, 255, 255);
+    width: fit-content;
+    border: 5px solid #e0e1e9;
+    position: fixed;
+  }
+  html .outrosSites h4 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 2rem;
+    color: #e0e1e9;
+    text-shadow: 2px 2px 5px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  html .outrosSites ul li {
+    list-style-type: none;
+  }
+  html .outrosSites ul li a {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    text-decoration: none;
+  }
+  html .outrosSites .botaoFechar {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: none;
+    width: 1rem;
+    height: 1rem;
+    background-image: url("https://babyemcasa.com/wp-content/uploads/2022/06/cancel-close-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  html .esconder {
+    display: none;
+  }
+  html .exibir {
+    display: block;
+  }
   html header {
+    position: sticky;
+    top: 0;
     background-image: linear-gradient(to right, #e4b4c2, #e7cee3);
+    z-index: 1;
+  }
+  html header .topo {
     height: 4rem;
   }
-  html header .logoTexto {
+  html header a {
+    display: flex;
+    text-decoration: none;
+  }
+  html header a .logoTexto {
     font-weight: bold;
   }
-  html header p {
+  html header a p {
     margin-bottom: 0;
     font-size: 1.5rem;
   }
-  html header a {
+  html header a img {
     height: 100%;
-    display: flex;
-  }
-  html header img {
-    height: 50%;
     width: 3rem;
   }
-  html header .menu {
-    z-index: 10;
-  }
-  html header .menu img {
-    filter: opacity(0.5);
-  }
-  html header .textoLogo {
+  html header a .textoLogo {
     font-size: 1rem;
     width: 3rem;
     line-height: 1rem;
@@ -723,26 +1291,38 @@ Text Domain: babyemcasa
     padding-top: 1.8rem;
     position: relative;
   }
-  html header .textoLogo .logoP1 {
+  html header a .textoLogo .logoP1 {
     transform: rotate(-45deg);
     position: absolute;
     left: -20%;
     font-size: 0.6rem;
     top: 75%;
   }
-  html header .textoLogo .logoP2 {
+  html header a .textoLogo .logoP2 {
     font-weight: bold;
     font-size: 2rem;
     color: #e0e1e9;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
     font-family: "Amita", cursive;
   }
+  html header .menu {
+    z-index: 1;
+    border: none;
+    background: none;
+  }
+  html header .menu img {
+    height: 2rem;
+    filter: opacity(0.5);
+  }
   html .blogTitulo {
-    position: relative;
-    margin-bottom: 2rem;
+    position: fixed;
+    z-index: 1;
+    height: 5rem;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), 80%, rgba(255, 255, 255, 0));
   }
   html .blogTitulo .tituloParts {
     position: absolute;
+    top: -3rem;
   }
   html .blogTitulo .tituloParts h4 {
     font-family: "Luckiest Guy", cursive;
@@ -756,9 +1336,15 @@ Text Domain: babyemcasa
     font-size: 0.8rem;
     margin-top: -0.8rem !important;
   }
+  html .principal {
+    scroll-padding-top: 4rem;
+    margin-top: 2rem;
+    z-index: -1;
+  }
   html .container_posts {
     border: 2px solid #e7cee3;
     position: relative;
+    min-height: 16rem;
   }
   html .container_posts .titulo_posts {
     width: 100%;
@@ -793,11 +1379,11 @@ Text Domain: babyemcasa
   html .container_posts .infos_posts p {
     margin-bottom: 0;
     font-size: 0.8rem;
-    color: #e4b4c2;
+    color: rgba(0, 0, 0, 0.599);
   }
   html .container_posts .infos_posts a {
     text-decoration: none;
-    color: #e4b4c2;
+    color: rgba(0, 0, 0, 0.599);
   }
   html .container_posts .branco {
     height: 3rem;
@@ -805,6 +1391,7 @@ Text Domain: babyemcasa
   html .container_post {
     border: 2px solid #e7cee3;
     position: relative;
+    margin-top: 4rem;
   }
   html .container_post .titulo_posts {
     width: 100%;
@@ -829,27 +1416,90 @@ Text Domain: babyemcasa
   html .container_post .infos_post p {
     margin-bottom: 0;
     font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.599);
   }
   html .container_post .branco {
     height: 3rem;
   }
-
-  footer {
-    height: 2rem;
+  html footer {
+    height: 6rem;
+    display: flex;
+    align-items: center;
     background-color: #e0e1e9;
-    margin-top: 1rem;
+    width: 100%;
+    bottom: 0;
   }
-
-  .horizontalAds {
+  html footer a {
+    display: flex;
+    text-decoration: none;
+  }
+  html footer a .logoTexto {
+    font-weight: bold;
+  }
+  html footer a p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+  html footer a img {
+    height: 100%;
+    width: 1.8rem;
+  }
+  html footer a .textoLogo {
+    font-size: 0.6rem;
+    width: 1.8rem;
+    line-height: 0.6rem;
+    padding-left: 0.12rem;
+    padding-top: 1.08rem;
+    position: relative;
+  }
+  html footer a .textoLogo .logoP1 {
+    transform: rotate(-45deg);
+    position: absolute;
+    left: -20%;
+    font-size: 0.36rem;
+    top: 75%;
+  }
+  html footer a .textoLogo .logoP2 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #e0e1e9;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
+    font-family: "Amita", cursive;
+  }
+  html .horizontalAds {
     height: 6rem;
     border: 1px solid #e0e1e9;
     width: 100%;
     margin: 0 auto;
   }
-
-  .verticalAds {
+  html .verticalAds {
     border: 1px solid #e0e1e9;
     height: 100%;
+  }
+  html .adsDireita {
+    right: 2.5rem;
+  }
+  html .verticalAdsInterno {
+    margin-top: 4rem;
+    border: 1px solid #e0e1e9;
+  }
+  html .categoryPL {
+    margin-top: 5rem;
+  }
+  html .container_category {
+    border: 2px solid #e7cee3;
+    position: relative;
+  }
+  html .container_category .titulo_posts {
+    width: 100%;
+  }
+  html .container_category .titulo_posts h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  html .container_category .titulo_posts a {
+    text-decoration: none;
+    color: #e4b4c2;
   }
 }
 
