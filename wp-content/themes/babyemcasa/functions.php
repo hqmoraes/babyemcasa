@@ -44,10 +44,31 @@ add_filter( 'excerpt_length', 'wp_excerpt_length');
 
 
     function add_scripts(){
-        wp_enqueue_script('bootstrap_js', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.min.js',array(),5,true);
-        wp_enqueue_style('botstrap_css', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/css/bootstrap.min.css',5);
+//        wp_enqueue_script('bootstrap_js', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.min.js',array(),5,true);
+        wp_enqueue_style('botstrap_css', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/css/bootstrap.css',5);
         wp_enqueue_style('style', get_stylesheet_directory_uri() . '/style.css',1);
         wp_enqueue_script('recursos',get_stylesheet_directory_uri() . '/js/recursos.js',array(),1,true);
     }
 add_action('wp_enqueue_scripts','add_scripts');
 add_action('after_setup_theme','babyemcasa_setup');
+
+/**
+ * Register our sidebars and widgetized areas.
+ *
+ */
+function reg_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => 'Barra de widgets',
+		'id'            => 'wdg_1',
+		'before_widget' => '<div class="wdg">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'reg_widgets_init' );
+
+
+?>

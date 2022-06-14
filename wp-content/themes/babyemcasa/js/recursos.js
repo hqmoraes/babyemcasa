@@ -8,6 +8,12 @@ try {
 }
 });
 
+try {
+    document.getElementById('wpd-bubble-add-message').innerText = "Adoramos comentários. Deixe o seu!"
+} catch (error) {
+    
+}
+
 let fecharMenu = document.querySelector('.outrosSites')
 let criarBotao = document.createElement('button');
 criarBotao.classList.add('botaoFechar');

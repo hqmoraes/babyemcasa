@@ -13,9 +13,6 @@
                     <div class="branco"></div>
                     <div class="infos_post col-12 d-flex align-items-center justify-content-between p-3">
                         <p><?php echo get_the_modified_date(); ?></p> 
-                        <a href="<?php comments_link(); ?>">
-                            Comments to this post
-                        </a>
                         <a href="<?php echo get_category_link(get_cat_ID(get_the_category()[0]->name))?>"><p><?php echo get_the_category()[0]->name; ?></p></a>
                     </div>
                 </div>
@@ -23,6 +20,7 @@
             <?php
     ?>
         </div>
+        <?php comments_template(); ?>
     </div>
 </div>
 <?php
