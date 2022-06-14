@@ -6,7 +6,7 @@
                 <p class="p-0"><?php echo get_bloginfo('description'); ?></p>
             </div>
             <div class="col-4"></div>
-            <div class="col-1">
+            <div class="col-4">
                 <div class="logoFooter"></div>
             </div>
         </div>
