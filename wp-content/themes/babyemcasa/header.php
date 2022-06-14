@@ -40,7 +40,7 @@
         $sites = get_sites(); ?>
         <ul class="p-1"> <?php
         foreach ($sites as $site){ ?>
-            <li><a href="https://<?php echo $site->domain; ?>"><?php echo $site->domain; ?></a></li>
+            <li class="py-2"><a href="https://<?php echo $site->domain; ?>"><?php echo $site->domain; ?></a></li>
         <?php
         }
     ?>

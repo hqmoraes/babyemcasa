@@ -1,6 +1,6 @@
 @import 'comum';
 @media screen and (min-width: 200px){
-    @include topo(2.5vw);
+    @include topo(3vw);
 }
 @media screen and (min-width: 576px){
     @include topo(2vw);

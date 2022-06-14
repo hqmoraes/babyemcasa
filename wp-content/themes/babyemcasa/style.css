@@ -19,7 +19,7 @@ Text Domain: babyemcasa
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 @media screen and (min-width: 200px) {
   html {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   html {
@@ -210,6 +210,8 @@ Text Domain: babyemcasa
   }
   html .container_post .imagem_post {
     margin-bottom: 1rem;
+    width: 10rem;
+    height: 10rem;
   }
   html .container_post .imagem_post img {
     width: 100%;
@@ -233,8 +235,14 @@ Text Domain: babyemcasa
   html .container_post .branco {
     height: 3rem;
   }
+  html .conteudo_post p {
+    font-size: 1.5rem;
+  }
+  html .conteudo_post h2 {
+    font-size: 2.5rem;
+  }
   html footer {
-    height: 6rem;
+    height: 7rem;
     display: flex;
     align-items: center;
     background-color: #e0e1e9;
@@ -507,6 +515,8 @@ Text Domain: babyemcasa
   }
   html .container_post .imagem_post {
     margin-bottom: 1rem;
+    width: 10rem;
+    height: 10rem;
   }
   html .container_post .imagem_post img {
     width: 100%;
@@ -530,8 +540,14 @@ Text Domain: babyemcasa
   html .container_post .branco {
     height: 3rem;
   }
+  html .conteudo_post p {
+    font-size: 1.5rem;
+  }
+  html .conteudo_post h2 {
+    font-size: 2.5rem;
+  }
   html footer {
-    height: 6rem;
+    height: 7rem;
     display: flex;
     align-items: center;
     background-color: #e0e1e9;
@@ -804,6 +820,8 @@ Text Domain: babyemcasa
   }
   html .container_post .imagem_post {
     margin-bottom: 1rem;
+    width: 10rem;
+    height: 10rem;
   }
   html .container_post .imagem_post img {
     width: 100%;
@@ -827,8 +845,14 @@ Text Domain: babyemcasa
   html .container_post .branco {
     height: 3rem;
   }
+  html .conteudo_post p {
+    font-size: 1.5rem;
+  }
+  html .conteudo_post h2 {
+    font-size: 2.5rem;
+  }
   html footer {
-    height: 6rem;
+    height: 7rem;
     display: flex;
     align-items: center;
     background-color: #e0e1e9;
@@ -1101,6 +1125,8 @@ Text Domain: babyemcasa
   }
   html .container_post .imagem_post {
     margin-bottom: 1rem;
+    width: 10rem;
+    height: 10rem;
   }
   html .container_post .imagem_post img {
     width: 100%;
@@ -1124,8 +1150,14 @@ Text Domain: babyemcasa
   html .container_post .branco {
     height: 3rem;
   }
+  html .conteudo_post p {
+    font-size: 1.5rem;
+  }
+  html .conteudo_post h2 {
+    font-size: 2.5rem;
+  }
   html footer {
-    height: 6rem;
+    height: 7rem;
     display: flex;
     align-items: center;
     background-color: #e0e1e9;
@@ -1398,6 +1430,8 @@ Text Domain: babyemcasa
   }
   html .container_post .imagem_post {
     margin-bottom: 1rem;
+    width: 10rem;
+    height: 10rem;
   }
   html .container_post .imagem_post img {
     width: 100%;
@@ -1421,8 +1455,14 @@ Text Domain: babyemcasa
   html .container_post .branco {
     height: 3rem;
   }
+  html .conteudo_post p {
+    font-size: 1.5rem;
+  }
+  html .conteudo_post h2 {
+    font-size: 2.5rem;
+  }
   html footer {
-    height: 6rem;
+    height: 7rem;
     display: flex;
     align-items: center;
     background-color: #e0e1e9;
