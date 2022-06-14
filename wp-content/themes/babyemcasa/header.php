@@ -29,9 +29,9 @@
     </div>
 </header>    
 <div class="mx-auto col-12 blogTitulo d-flex align-items-center justify-content-center">
-                <div class="col-8 d-flex flex-wrap align-items-center text-center tituloParts">
-                    <h4 class="col-12 p-0 m-0"><?php echo get_bloginfo('title') ?></h3>
-                    <p class="col-12 p-0 m-0"><?php echo get_bloginfo('description') ?></p>
+                <div class="col-6 tituloParts">
+                    <h4 class="p-0"><?php echo get_bloginfo('title') ?></h3>
+                    <p class="p-0"><?php echo get_bloginfo('description') ?></p>
                 </div>
 </div>
 <div class="col-12 outrosSites px-4 pt-3 esconder">

@@ -2,8 +2,7 @@
 
 <div class="container categoryPL">
     <div class="row">
-        <div class="col-12"></div>
-        <div class="col-8">
+        <div class="col-12">
             <?php query_posts(array('orderby'=>'title','order'=>'DESC'));
             if ( have_posts() ) {
                 while ( have_posts() ) {
@@ -17,9 +16,6 @@
                 <?php }
                 wp_reset_postdata();
             } ?>
-        </div>
-        <div class="col-4 mt-2">
-            <div class=" ads verticalAds"></div>
         </div>
     </div>
 </div>

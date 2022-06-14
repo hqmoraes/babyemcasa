@@ -8,7 +8,7 @@
                     <div class="titulo_post col-12">
                         <h1><?php the_title(); ?></h1>
                     </div>
-                    <div class="imagem_post col-12"><?php echo get_the_post_thumbnail() ?></div>
+                    <div class="col-12"><div style="width: 15rem; height: 15rem; margin: 0 auto 0 auto; background-image: url(<?php echo get_the_post_thumbnail_url() ?>); background-size: cover"></div></div>
                     <div class="conteudo_post col-12" style="font-size: 1.5rem"><p><?php echo get_the_content();  ?><p></div>
                     <div class="branco"></div>
                     <div class="infos_post col-12 d-flex align-items-center justify-content-between p-3">
