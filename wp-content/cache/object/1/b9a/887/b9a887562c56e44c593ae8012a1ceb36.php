@@ -1,4 +1,4 @@
-«b<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:181;s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2022-06-14 09:08:35";s:13:"post_date_gmt";s:19:"2022-06-14 12:08:35";s:12:"post_content";s:2889:"<!-- wp:paragraph -->
+í«b<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:181;s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2022-06-14 09:08:35";s:13:"post_date_gmt";s:19:"2022-06-14 12:08:35";s:12:"post_content";s:2889:"<!-- wp:paragraph -->
 <p>Meninas... quem aÃ­ sofre no dia de dar vacina?</p>
 <!-- /wp:paragraph -->
 
