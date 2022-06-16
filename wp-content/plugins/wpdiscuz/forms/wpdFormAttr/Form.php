@@ -8,7 +8,7 @@ use wpdFormAttr\Field\DefaultField\Captcha;
 class Form {
 
     public $wpdOptions;
-    private $generalOptions;
+    private $generalOptions = [];
     private $formeStructure;
     private $formPostTypes;
     private $formFields;

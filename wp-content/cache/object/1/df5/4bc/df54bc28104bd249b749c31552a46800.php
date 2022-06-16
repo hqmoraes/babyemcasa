@@ -1,4 +1,4 @@
-I«b<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:78;s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2022-06-02 13:22:29";s:13:"post_date_gmt";s:19:"2022-06-02 16:22:29";s:12:"post_content";s:2710:"<!-- wp:paragraph -->
+«b<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:78;s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2022-06-02 13:22:29";s:13:"post_date_gmt";s:19:"2022-06-02 16:22:29";s:12:"post_content";s:2710:"<!-- wp:paragraph -->
 <p>Meninas... <a href="https://babyemcasa.com/sobre-nos/" target="_blank" rel="noreferrer noopener">eu como mÃ£e</a> de dois meninos nÃ£o entendo nada de penteadinhos para bebÃªs. Mas nesses dias tenho me aventurado afinal essa mocinha mais linda da minha vida merece tudooo.</p>
 <!-- /wp:paragraph -->
 

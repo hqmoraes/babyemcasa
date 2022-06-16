@@ -1,1 +1,1 @@
-«b<?php exit; ?>a:1:{s:7:"content";a:0:{}}
+#«b<?php exit; ?>a:1:{s:7:"content";a:1:{s:22:"auto_update_core_major";b:1;}}

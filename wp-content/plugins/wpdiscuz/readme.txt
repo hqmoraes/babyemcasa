@@ -3,7 +3,7 @@ Contributors: gVectors Team
 Tags: comment, comments, ajax comments, comment form, comment fields
 Requires at least: 5.0
 Tested up to: 6.0
-Stable tag: 7.3.18
+Stable tag: 7.3.19
 Requires PHP: 5.6 and higher
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -186,6 +186,15 @@ Nothing will be lost!  **Comments - wpDiscuz** will show all old comments.
 == Changelog ==
 
 
+= Comments - wpDiscuz v7.3.19 - 15.06.2022 =
+
+Fixed bug: Uncaught TypeError: array_key_exists()
+
+
+**IMPORTANT!**
+
+* Please don't forget delete all caches and purge CDN after the update.
+
 = Comments - wpDiscuz v7.3.18 - 14.06.2022 =
 
 * Added: Preventing multiple clicks on subscription button
@@ -200,12 +209,6 @@ Nothing will be lost!  **Comments - wpDiscuz** will show all old comments.
 * Fixed Bug: PHP Fatal error: Cannot use string offset as an array in class.WpdiscuzWalker.php:45
 * Fixed Bug: PHP Fatal error: array_key_exists() in Form.php (when creating a new form)
 * Fixed Bug: PHP Fatal error: Call to a member function get_children() on null in class.WpdiscuzHelper.php:421
-
-
-**IMPORTANT!**
-
-* Please don't forget delete all caches and purge CDN after the update.
-
 
 = Comments - wpDiscuz v7.3.17 - 30.03.2022 =
 

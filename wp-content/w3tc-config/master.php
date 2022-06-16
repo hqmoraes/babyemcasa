@@ -134,7 +134,7 @@
     "objectcache.lifetime": 180,
     "objectcache.purge.all": false,
     "pgcache.configuration_overloaded": false,
-    "pgcache.enabled": true,
+    "pgcache.enabled": false,
     "pgcache.comment_cookie_ttl": 1800,
     "pgcache.debug": false,
     "pgcache.debug_purge": false,
@@ -537,7 +537,9 @@
     "varnish.configuration_overloaded": false,
     "varnish.enabled": false,
     "varnish.debug": false,
-    "varnish.servers": [],
+    "varnish.servers": [
+        ""
+    ],
     "browsercache.configuration_overloaded": false,
     "browsercache.enabled": true,
     "browsercache.rewrite": false,
@@ -903,5 +905,8 @@
         "compression": "lossy",
         "auto": "enabled"
     },
-    "lazyload_process_background": true
+    "lazyload_process_background": true,
+    "fragmentcache": {
+        "engine": ""
+    }
 }
