@@ -46,13 +46,14 @@ document.querySelector('.conteudo_post').childNodes.forEach(filho =>{
     if (filho.localName != undefined){
         if(filho.localName == 'ul'){
             filho.childNodes.forEach(li=>{
-                li.setAttribute('class','col-12 col-md-6')
+                li.setAttribute('class','col-12 col-md-5')
             })
         }
         else if(filho.localName == 'figure' && !filho.classList.contains('is-type-video')){
             filho.style = `
                 float: right;
                 margin-right: 1rem;
+                max-width: 50vw;
             `
         }
     }

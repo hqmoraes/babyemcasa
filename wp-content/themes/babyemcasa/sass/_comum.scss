@@ -65,7 +65,7 @@
         $fonte: 'Amita', cursive;
         $bg_topo: linear-gradient(to right,#e4b4c2,#e7cee3);
         img{
-            max-width: 25vw;
+            max-width: 90vw;
         }
 
         body{
@@ -271,6 +271,7 @@
             ul{
                 display: flex;
                 flex-wrap: wrap;
+                justify-content: space-between;
             }
         }
         footer{

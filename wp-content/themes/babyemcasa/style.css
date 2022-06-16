@@ -26,7 +26,7 @@ Text Domain: babyemcasa
     scroll-padding-top: 4rem;
   }
   html img {
-    max-width: 25vw;
+    max-width: 90vw;
   }
   html body {
     position: relative;
@@ -252,6 +252,7 @@ Text Domain: babyemcasa
   html .conteudo_post ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   html footer {
     height: 7rem;
@@ -367,7 +368,7 @@ Text Domain: babyemcasa
     scroll-padding-top: 4rem;
   }
   html img {
-    max-width: 25vw;
+    max-width: 90vw;
   }
   html body {
     position: relative;
@@ -593,6 +594,7 @@ Text Domain: babyemcasa
   html .conteudo_post ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   html footer {
     height: 7rem;
@@ -708,7 +710,7 @@ Text Domain: babyemcasa
     scroll-padding-top: 4rem;
   }
   html img {
-    max-width: 25vw;
+    max-width: 90vw;
   }
   html body {
     position: relative;
@@ -934,6 +936,7 @@ Text Domain: babyemcasa
   html .conteudo_post ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   html footer {
     height: 7rem;
@@ -1049,7 +1052,7 @@ Text Domain: babyemcasa
     scroll-padding-top: 4rem;
   }
   html img {
-    max-width: 25vw;
+    max-width: 90vw;
   }
   html body {
     position: relative;
@@ -1275,6 +1278,7 @@ Text Domain: babyemcasa
   html .conteudo_post ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   html footer {
     height: 7rem;
@@ -1390,7 +1394,7 @@ Text Domain: babyemcasa
     scroll-padding-top: 4rem;
   }
   html img {
-    max-width: 25vw;
+    max-width: 90vw;
   }
   html body {
     position: relative;
@@ -1616,6 +1620,7 @@ Text Domain: babyemcasa
   html .conteudo_post ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   html footer {
     height: 7rem;

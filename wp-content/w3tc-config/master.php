@@ -907,6 +907,6 @@
     },
     "lazyload_process_background": true,
     "fragmentcache": {
-        "engine": ""
+        "engine": "file"
     }
 }
