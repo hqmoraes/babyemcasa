@@ -6,6 +6,7 @@ try {
 } catch (error) {
     
 }
+
 });
 
 try {
@@ -26,6 +27,7 @@ let logoMontado = document.querySelector('.logoMontado')
 
 logoFooter.appendChild(logoMontado.cloneNode(true))
 
+document.querySelector('.logoMontado a .textoLogo .logoP2').style.width = "3.8rem"
 
 function menuOutrosSites(){
     fazer = document.querySelector('.outrosSites').classList.contains('esconder')

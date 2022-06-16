@@ -9,7 +9,7 @@
                             <div class="col-12 pe-2">
                                 <div class="container_posts col-12 d-flex row align-items-center mx-auto">
                                     <div class="titulo_posts col-12"><h1><?php the_title(); ?></h1></div>
-                                    <div class="imagem_posts col-4 col-md-3"><?php the_post_thumbnail($size = 'medium', $attr = ''); ?></div>
+                                    <div class="imagem_posts col-4 col-md-3"><?php the_post_thumbnail($size = '225w', $attr = ''); ?></div>
 <!--                                    <div class="imagem_posts col-4 col-md-3" style="width:10rem; height: 12rem; background-size: cover; background-position: center top; background-image: url(<?php echo get_the_post_thumbnail_url(); ?>)"></div> -->
                                     <div class="resumo_posts col-8 col-md-9"><p style="font-size:1.5rem"><?php echo get_the_excerpt();  ?></p></div>
                                     <div class="branco"></div>

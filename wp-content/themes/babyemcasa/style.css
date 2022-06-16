@@ -25,6 +25,9 @@ Text Domain: babyemcasa
   html {
     scroll-padding-top: 4rem;
   }
+  html img {
+    max-width: 90vw;
+  }
   html body {
     position: relative;
   }
@@ -334,6 +337,9 @@ Text Domain: babyemcasa
 
   html {
     scroll-padding-top: 4rem;
+  }
+  html img {
+    max-width: 90vw;
   }
   html body {
     position: relative;
@@ -645,6 +651,9 @@ Text Domain: babyemcasa
   html {
     scroll-padding-top: 4rem;
   }
+  html img {
+    max-width: 90vw;
+  }
   html body {
     position: relative;
   }
@@ -955,6 +964,9 @@ Text Domain: babyemcasa
   html {
     scroll-padding-top: 4rem;
   }
+  html img {
+    max-width: 90vw;
+  }
   html body {
     position: relative;
   }
@@ -1264,6 +1276,9 @@ Text Domain: babyemcasa
 
   html {
     scroll-padding-top: 4rem;
+  }
+  html img {
+    max-width: 90vw;
   }
   html body {
     position: relative;

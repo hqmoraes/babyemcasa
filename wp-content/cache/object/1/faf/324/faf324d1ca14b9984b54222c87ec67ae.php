@@ -1,4 +1,4 @@
-}ö¨b<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:114;s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2022-06-08 08:56:31";s:13:"post_date_gmt";s:19:"2022-06-08 11:56:31";s:12:"post_content";s:3736:"<!-- wp:paragraph -->
+F«b<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:114;s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2022-06-08 08:56:31";s:13:"post_date_gmt";s:19:"2022-06-08 11:56:31";s:12:"post_content";s:3736:"<!-- wp:paragraph -->
 <p>Meninas lindas e maravilhosas... Quero contar nossa nova aventuraðŸ˜„</p>
 <!-- /wp:paragraph -->
 

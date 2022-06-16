@@ -1,1 +1,0 @@
-©©b<?php exit; ?>a:1:{s:7:"content";s:202:"{"mobile":{"score":67,"metrics":null},"desktop":{"score":91,"metrics":null},"test_url":"https:\/\/developers.google.com\/speed\/pagespeed\/insights\/?url=https%3A%2F%2Fbabyemcasa.com","time":1655239577}";}

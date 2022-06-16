@@ -64,6 +64,9 @@
         scroll-padding-top: $altura;
         $fonte: 'Amita', cursive;
         $bg_topo: linear-gradient(to right,#e4b4c2,#e7cee3);
+        img{
+            max-width: 90vw;
+        }
 
         body{
             position: relative;

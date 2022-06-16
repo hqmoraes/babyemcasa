@@ -1,1 +1,1 @@
-}ö¨b<?php exit; ?>a:1:{s:7:"content";a:2:{s:22:"auto_update_core_major";b:1;s:64:"_site_transient_timeout_yoast_translations_wordpress-seo-premium";b:1;}}
+«b<?php exit; ?>a:1:{s:7:"content";a:1:{s:27:"using_application_passwords";b:1;}}

@@ -1,1 +1,1 @@
-{"babyemcasa.com":"m1","cozinha.babyemcasa.com":"m2"}
+{"babyemcasa.com":"m1","cozinha.babyemcasa.com":"m2","saude.babyemcasa.com":"m3","limpeza.babyemcasa.com":"m4","www.babyemcasa.com":"m1","":"m1"}

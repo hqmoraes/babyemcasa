@@ -1,4 +1,4 @@
-êö¨b<?php exit; ?>a:6:{s:10:"last_error";s:0:"";s:10:"last_query";s:194:"
+F«b<?php exit; ?>a:6:{s:10:"last_error";s:0:"";s:10:"last_query";s:194:"
 			SELECT   hspd_posts.*
 			FROM hspd_posts 
 			WHERE 1=1  AND hspd_posts.post_type = 'wpdiscuz_form' AND ((hspd_posts.post_status = 'publish'))

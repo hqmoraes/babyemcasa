@@ -1,4 +1,4 @@
-êö¨b<?php exit; ?>a:6:{s:10:"last_error";s:0:"";s:10:"last_query";s:673:"SELECT *, CASE 
+F«b<?php exit; ?>a:6:{s:10:"last_error";s:0:"";s:10:"last_query";s:673:"SELECT *, CASE 
 WHEN `type` = 3 THEN 0
 WHEN `type` = 4 THEN 1
 WHEN `type` = 7 THEN 2
