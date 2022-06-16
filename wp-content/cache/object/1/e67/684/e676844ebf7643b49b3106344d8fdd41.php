@@ -1,4 +1,5 @@
-í«b<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:19;s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2022-05-30 09:37:57";s:13:"post_date_gmt";s:19:"2022-05-30 12:37:57";s:12:"post_content";s:3253:"<!-- wp:paragraph -->
+
+«b<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:19;s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2022-05-30 09:37:57";s:13:"post_date_gmt";s:19:"2022-05-30 12:37:57";s:12:"post_content";s:3253:"<!-- wp:paragraph -->
 <p>Falar sobre mim...Ã© tambÃ©m falar sobre minha famÃ­lia, meu bem mais precioso, motivo dos meus sorrisos e dos meus soluÃ§os de choro tambÃ©m...kkkk</p>
 <!-- /wp:paragraph -->
 

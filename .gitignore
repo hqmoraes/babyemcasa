@@ -8,3 +8,4 @@ ips.php
 rules.php
 template.php
 wp-content/cache/**
+wp-content/cache/object/**
