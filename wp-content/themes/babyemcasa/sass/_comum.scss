@@ -65,13 +65,12 @@
         $fonte: 'Amita', cursive;
         $bg_topo: linear-gradient(to right,#e4b4c2,#e7cee3);
         img{
-            max-width: 15vw;
+            max-width: 25vw;
         }
 
         body{
             position: relative;
         }
-
         .outrosSites{
             top: 1rem;
             right: 3rem;
@@ -269,6 +268,10 @@
             h2{
                 font-size: 2.5rem;
             }
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+            }
         }
         footer{
             height: 7rem;
@@ -300,22 +303,45 @@
         }
         .categoryPL{
             margin-top: 5rem;
-        }
-        .container_category{
-            border: 2px solid #e7cee3;
-            position: relative;
-            .titulo_posts{
-                width: 100%;
-                h1{
-                    font-size:1.5rem;
-                    font-weight: bold;
-                }
-                a{
-                    text-decoration: none;
-                    color: #e4b4c2;
+            .container_category{
+                border: 2px solid #e7cee3;
+                position: relative;
+                .titulo_posts{
+                    width: 100%;
+                    h1{
+                        font-size:1.5rem;
+                        font-weight: bold;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: #e4b4c2;
+                    }
                 }
             }
         }
-    }
+        .categoryPLInterno{
+            margin-top: 2rem;
+            display:flex;
+            flex-wrap: wrap;
+            .container_category{
+                border: none;
+                position: relative;
+                .titulo_posts{
+                    width: 100%;
+                    h1{
+                        font-size:1.5rem;
+                        font-weight: bold;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: #e4b4c2;
+                    }
+                }
+            }
+        }
 
+    }
+    iframe{
+        max-width: 90vw;
+    }
 }

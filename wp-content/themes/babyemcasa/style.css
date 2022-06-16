@@ -26,7 +26,7 @@ Text Domain: babyemcasa
     scroll-padding-top: 4rem;
   }
   html img {
-    max-width: 15vw;
+    max-width: 25vw;
   }
   html body {
     position: relative;
@@ -249,6 +249,10 @@ Text Domain: babyemcasa
   html .conteudo_post h2 {
     font-size: 2.5rem;
   }
+  html .conteudo_post ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
   html footer {
     height: 7rem;
     display: flex;
@@ -314,20 +318,44 @@ Text Domain: babyemcasa
   html .categoryPL {
     margin-top: 5rem;
   }
-  html .container_category {
+  html .categoryPL .container_category {
     border: 2px solid #e7cee3;
     position: relative;
   }
-  html .container_category .titulo_posts {
+  html .categoryPL .container_category .titulo_posts {
     width: 100%;
   }
-  html .container_category .titulo_posts h1 {
+  html .categoryPL .container_category .titulo_posts h1 {
     font-size: 1.5rem;
     font-weight: bold;
   }
-  html .container_category .titulo_posts a {
+  html .categoryPL .container_category .titulo_posts a {
     text-decoration: none;
     color: #e4b4c2;
+  }
+  html .categoryPLInterno {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  html .categoryPLInterno .container_category {
+    border: none;
+    position: relative;
+  }
+  html .categoryPLInterno .container_category .titulo_posts {
+    width: 100%;
+  }
+  html .categoryPLInterno .container_category .titulo_posts h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  html .categoryPLInterno .container_category .titulo_posts a {
+    text-decoration: none;
+    color: #e4b4c2;
+  }
+
+  iframe {
+    max-width: 90vw;
   }
 }
 @media screen and (min-width: 576px) {
@@ -339,7 +367,7 @@ Text Domain: babyemcasa
     scroll-padding-top: 4rem;
   }
   html img {
-    max-width: 15vw;
+    max-width: 25vw;
   }
   html body {
     position: relative;
@@ -562,6 +590,10 @@ Text Domain: babyemcasa
   html .conteudo_post h2 {
     font-size: 2.5rem;
   }
+  html .conteudo_post ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
   html footer {
     height: 7rem;
     display: flex;
@@ -627,20 +659,44 @@ Text Domain: babyemcasa
   html .categoryPL {
     margin-top: 5rem;
   }
-  html .container_category {
+  html .categoryPL .container_category {
     border: 2px solid #e7cee3;
     position: relative;
   }
-  html .container_category .titulo_posts {
+  html .categoryPL .container_category .titulo_posts {
     width: 100%;
   }
-  html .container_category .titulo_posts h1 {
+  html .categoryPL .container_category .titulo_posts h1 {
     font-size: 1.5rem;
     font-weight: bold;
   }
-  html .container_category .titulo_posts a {
+  html .categoryPL .container_category .titulo_posts a {
     text-decoration: none;
     color: #e4b4c2;
+  }
+  html .categoryPLInterno {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  html .categoryPLInterno .container_category {
+    border: none;
+    position: relative;
+  }
+  html .categoryPLInterno .container_category .titulo_posts {
+    width: 100%;
+  }
+  html .categoryPLInterno .container_category .titulo_posts h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  html .categoryPLInterno .container_category .titulo_posts a {
+    text-decoration: none;
+    color: #e4b4c2;
+  }
+
+  iframe {
+    max-width: 90vw;
   }
 }
 @media screen and (min-width: 768px) {
@@ -652,7 +708,7 @@ Text Domain: babyemcasa
     scroll-padding-top: 4rem;
   }
   html img {
-    max-width: 15vw;
+    max-width: 25vw;
   }
   html body {
     position: relative;
@@ -875,6 +931,10 @@ Text Domain: babyemcasa
   html .conteudo_post h2 {
     font-size: 2.5rem;
   }
+  html .conteudo_post ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
   html footer {
     height: 7rem;
     display: flex;
@@ -940,20 +1000,44 @@ Text Domain: babyemcasa
   html .categoryPL {
     margin-top: 5rem;
   }
-  html .container_category {
+  html .categoryPL .container_category {
     border: 2px solid #e7cee3;
     position: relative;
   }
-  html .container_category .titulo_posts {
+  html .categoryPL .container_category .titulo_posts {
     width: 100%;
   }
-  html .container_category .titulo_posts h1 {
+  html .categoryPL .container_category .titulo_posts h1 {
     font-size: 1.5rem;
     font-weight: bold;
   }
-  html .container_category .titulo_posts a {
+  html .categoryPL .container_category .titulo_posts a {
     text-decoration: none;
     color: #e4b4c2;
+  }
+  html .categoryPLInterno {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  html .categoryPLInterno .container_category {
+    border: none;
+    position: relative;
+  }
+  html .categoryPLInterno .container_category .titulo_posts {
+    width: 100%;
+  }
+  html .categoryPLInterno .container_category .titulo_posts h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  html .categoryPLInterno .container_category .titulo_posts a {
+    text-decoration: none;
+    color: #e4b4c2;
+  }
+
+  iframe {
+    max-width: 90vw;
   }
 }
 @media screen and (min-width: 992px) {
@@ -965,7 +1049,7 @@ Text Domain: babyemcasa
     scroll-padding-top: 4rem;
   }
   html img {
-    max-width: 15vw;
+    max-width: 25vw;
   }
   html body {
     position: relative;
@@ -1188,6 +1272,10 @@ Text Domain: babyemcasa
   html .conteudo_post h2 {
     font-size: 2.5rem;
   }
+  html .conteudo_post ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
   html footer {
     height: 7rem;
     display: flex;
@@ -1253,20 +1341,44 @@ Text Domain: babyemcasa
   html .categoryPL {
     margin-top: 5rem;
   }
-  html .container_category {
+  html .categoryPL .container_category {
     border: 2px solid #e7cee3;
     position: relative;
   }
-  html .container_category .titulo_posts {
+  html .categoryPL .container_category .titulo_posts {
     width: 100%;
   }
-  html .container_category .titulo_posts h1 {
+  html .categoryPL .container_category .titulo_posts h1 {
     font-size: 1.5rem;
     font-weight: bold;
   }
-  html .container_category .titulo_posts a {
+  html .categoryPL .container_category .titulo_posts a {
     text-decoration: none;
     color: #e4b4c2;
+  }
+  html .categoryPLInterno {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  html .categoryPLInterno .container_category {
+    border: none;
+    position: relative;
+  }
+  html .categoryPLInterno .container_category .titulo_posts {
+    width: 100%;
+  }
+  html .categoryPLInterno .container_category .titulo_posts h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  html .categoryPLInterno .container_category .titulo_posts a {
+    text-decoration: none;
+    color: #e4b4c2;
+  }
+
+  iframe {
+    max-width: 90vw;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -1278,7 +1390,7 @@ Text Domain: babyemcasa
     scroll-padding-top: 4rem;
   }
   html img {
-    max-width: 15vw;
+    max-width: 25vw;
   }
   html body {
     position: relative;
@@ -1501,6 +1613,10 @@ Text Domain: babyemcasa
   html .conteudo_post h2 {
     font-size: 2.5rem;
   }
+  html .conteudo_post ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
   html footer {
     height: 7rem;
     display: flex;
@@ -1566,20 +1682,44 @@ Text Domain: babyemcasa
   html .categoryPL {
     margin-top: 5rem;
   }
-  html .container_category {
+  html .categoryPL .container_category {
     border: 2px solid #e7cee3;
     position: relative;
   }
-  html .container_category .titulo_posts {
+  html .categoryPL .container_category .titulo_posts {
     width: 100%;
   }
-  html .container_category .titulo_posts h1 {
+  html .categoryPL .container_category .titulo_posts h1 {
     font-size: 1.5rem;
     font-weight: bold;
   }
-  html .container_category .titulo_posts a {
+  html .categoryPL .container_category .titulo_posts a {
     text-decoration: none;
     color: #e4b4c2;
+  }
+  html .categoryPLInterno {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  html .categoryPLInterno .container_category {
+    border: none;
+    position: relative;
+  }
+  html .categoryPLInterno .container_category .titulo_posts {
+    width: 100%;
+  }
+  html .categoryPLInterno .container_category .titulo_posts h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  html .categoryPLInterno .container_category .titulo_posts a {
+    text-decoration: none;
+    color: #e4b4c2;
+  }
+
+  iframe {
+    max-width: 90vw;
   }
 }
 

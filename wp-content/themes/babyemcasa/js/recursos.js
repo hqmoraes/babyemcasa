@@ -7,13 +7,13 @@ try {
     
 }
 
-});
-
 try {
-    document.getElementById('wpd-bubble-add-message').innerText = "Adoramos comentários. Deixe o seu!"
+    document.querySelector('figure.is-type-video iframe').style.width='90vw'
 } catch (error) {
     
 }
+
+});
 
 let fecharMenu = document.querySelector('.outrosSites')
 let criarBotao = document.createElement('button');
@@ -40,3 +40,32 @@ function menuOutrosSites(){
         document.querySelector('.outrosSites').classList.add('esconder');
     }
 }
+
+
+document.querySelector('.conteudo_post').childNodes.forEach(filho =>{
+    if (filho.localName != undefined){
+        if(filho.localName == 'ul'){
+            filho.childNodes.forEach(li=>{
+                li.setAttribute('class','col-12 col-md-6')
+            })
+        }
+        else if(filho.localName == 'figure' && !filho.classList.contains('is-type-video')){
+            filho.style = `
+                float: right;
+                margin-right: 1rem;
+            `
+        }
+    }
+})
+document.querySelector('.conteudo_post').lastElementChild.style = `
+        clear: both;
+    `
+
+
+document.querySelectorAll('.conteudo_post figure img').forEach(img =>{
+    img.style = `
+        width: 100%;
+        height: auto;
+    `
+})
+
