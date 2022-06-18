@@ -1,12 +1,11 @@
 <?php get_header(); ?>
 <div class="container">
-    <div class="row mb-4">
-        <div class="col-12"></div>
-        <div class="col-12">
+    <div class="row mb-4 justify-content-center">
+        <div class="col-12 col-md-8">
             <div class="row mx-auto">
                 <div class="container_post col-12">
                     <div class="row align-items-center mt-2">
-                        <div class="col-6 col-md-3"><div style="width: 15rem; height: 15rem; margin: 0 auto 0 auto; background-image: url(<?php echo get_the_post_thumbnail_url(get_the_id(),'medium') ?>); background-size: contain; background-repeat:no-repeat"></div></div>
+                        <div class="col-6 col-md-3"><div style="margin-left: 1rem; box-shadow: inset 0px 0px 0px 4px white; border: 1px solid black; width: 100%; height: 15rem; margin: 0 auto 0 auto; background-image: url(<?php echo get_the_post_thumbnail_url(get_the_id(),'medium') ?>); background-size: cover; background-position: center top background-repeat:no-repeat"></div></div>
                             <div class="titulo_post col-6 col-md-9">
                                 <h1><?php the_title(); ?></h1>
                         </div>
