@@ -18,8 +18,8 @@
                     </div>
                 </div>
             </div>
-            <?php
-            ?>
+	<?php // comments_template('/comments.php');
+        ?>
         </div>
         <div class="categoryPLInterno">
                 <?php query_posts(array('orderby'=>'title','order'=>'DESC'));
@@ -39,5 +39,6 @@
 </div>
 </div>
 <?php
+
 get_footer();
 ?>

@@ -5,7 +5,7 @@
 @mixin logo($fonte, $local){
     $altera: 0 ;
     @if $local == header{
-        $altera: 1;
+        $altera: 1; 
     }
     @else{
         $altera: 0.6;
