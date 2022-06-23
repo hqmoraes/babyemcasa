@@ -1,7 +1,13 @@
 @import 'comum';
 @media screen and (min-width: 992px){
-    @include topo(1vw);
+    $tm: 1vw;
+    @include topo($tm);
+    @include principal($tm);
+    @include base($tm);
 }
 @media screen and (min-width: 1400px){
-    @include topo(20px);
+    $tm: 20px;
+    @include topo($tm);
+    @include principal($tm);
+    @include base($tm);
 }

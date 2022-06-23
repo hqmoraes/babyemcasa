@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
-@mixin logo($fonte, $local){
+@mixin logo($local){
     $altera: 0 ;
+    $fonte: 'Amita', cursive;
     @if $local == header{
         $altera: 1; 
     }
     @else{
-        $altera: 0.6;
+        $altera: 1;
     }
 
 
@@ -54,6 +55,7 @@
 @mixin igual($tm){
     html{
         font-size: $tm;
+        $bs-body-font-family: 'Baloo 2', cursive !important;
     }
 }
 
@@ -62,7 +64,6 @@
     html{
         $altura: 4rem;
         scroll-padding-top: $altura;
-        $fonte: 'Amita', cursive;
         $bg_topo: linear-gradient(to right,#e4b4c2,#e7cee3);
         img{
             max-width: 90vw;
@@ -110,22 +111,22 @@
                 background-size: contain;
             }
         }
-        .esconder{
+        .esconderMenu{
             display: none;
         }
-        .exibir{
+        .exibirMenu{
             display: block;
         }
 
         header{
             position:sticky;
             top: 0;
-            background-image: $bg_topo;
             z-index: 1;
             .topo{
                 height: $altura;
+                background-image: $bg_topo;
             }
-        @include logo($fonte,header);
+        @include logo(header);
             .menu{
                 z-index:1;
                 img{
@@ -137,19 +138,20 @@
             }
         }
         .blogTitulo{
-            position: fixed;
+            position: relative;
             z-index: 1;
             height: 5rem;
-            top:5rem;
+            top:0;
             background-image:linear-gradient(to bottom, rgba(255,255,255,1),80%,rgba(255,255,255,0));
             .tituloParts{
                 position:absolute;
-                top:-3rem;
+                top:-2rem;
+                width: fit-content;
                 h4{
                     width: fit-content;
                     margin: 0 auto !important;
                     font-family: 'Luckiest Guy', cursive;
-                    font-size: 4rem;
+                    font-size: 3rem;
                     color: #e0e1e9;
                     text-shadow: 2px 2px 5px white;
                     -webkit-text-stroke-width: 1px;
@@ -165,179 +167,274 @@
             }
 
         } 
-        .principal{
-            scroll-padding-top: 4rem;
-            margin-top: 2rem;
-            z-index: -1;
+    }
+}
+@mixin principal($tm){
+    @include igual($tm);
+    .menuPrincipal{
+        padding:0;
+        ul{
+            border: 1px solid #e0e1e9;
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            margin: 0;
+            padding:0;
+            li:nth-child(odd){
+                background-color:#e0e1e9;
+            }
+            li:nth-child(even){
+                background-color:#ffff;
+            }
+            li{
+                width:100%;
+                padding: 0.5rem;
+                text-align: center;
+                font-family: 'Baloo 2', cursive !important;
+                font-size: 1.5rem;
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    aside{
+        background-color:#e4b4c2;
+    }
+    .principal{
+        scroll-padding-top: 4rem;
+        margin-top: 0;
+        z-index: -1;
+    }
+
+    .container_posts{
+        border: 2px solid #e7cee3;
+        position: relative;
+        min-height: 21rem;
+        .titulo_posts{
+            h1{
+                font-size:1.5rem;
+                font-weight: bold;
+            }
+        }
+        .imagem_posts img{
+            width: 100%;
+            height: 100%;
+            padding: 1rem;
+
+        }
+        .resumo_posts{
+            p{
+                font-size: 1.1rem;
+                font-family: 'Baloo 2', cursive;
+            }
+            h2{
+                font-size: 1.3rem;
+            }
+            .leiamais{
+                text-align: right;
+                color: #e4b4c2;
+                text-decoration: none;
+            }
+        }
+        .infos_posts{
+            background-color: #e0e1e9;
+            position: absolute;
+            bottom: 0;
+            left:0;
+            p{
+                margin-bottom:0;
+                font-size: 0.8rem;
+                color: rgba(0, 0, 0, 0.599);
+            }
+            a{
+                text-decoration: none;
+                color: rgba(0, 0, 0, 0.599);
+            }
+        }
+        .branco{
+            height: 3rem;
         }
 
-        .container_posts{
+    }
+
+    .container_post{
+        border: 2px solid #e7cee3;
+        position: relative;
+        margin-top: 4rem;
+        .imagem_post {
+            margin-bottom: 1rem;
+            width: 10rem;
+            height: 10rem;
+
+            img{
+                width: 100%;
+                height: 100%;
+                padding: 1rem;
+            }
+        }
+        .resumo_post{
+            p{
+                font-size: 1.5rem;
+            }
+        }
+        .infos_post{
+            background-color: #e0e1e9;
+            position: absolute;
+            bottom: 0;
+            left:0;
+            p{
+                margin-bottom:0;
+                font-size: 1.2rem;
+                color: rgba(0, 0, 0, 0.599);
+            }
+        }
+        .branco{
+            height: 3rem;
+        }
+    }
+    .conteudo_post{
+        p{
+            font-size: 1.5rem;
+        }
+        h2{
+            font-size: 2.5rem;
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+}
+@mixin base($tm){
+    footer{
+        height: 7rem;
+        display: flex;
+        align-items: center;
+        background-color: #e0e1e9;
+        width: 100%;
+        bottom:0;
+        @include logo(footer);
+        a{
+            width: 100%;
+            justify-content: end;
+            .textoLogo{
+                width: fit-content;
+            }
+        }
+    }
+    .logoFooter{
+        display: flex;
+        justify-content: end;
+        .logoMontado{
+            width: 100%;
+        }
+    }
+
+    .horizontalAds{
+        height: 6rem;
+        border: 1px solid #e0e1e9;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .verticalAds{
+        border: 1px solid #e0e1e9;
+        height:100%;
+
+    }
+    .adsDireita{
+        right:2.5rem;
+    }
+    .verticalAdsInterno{
+        margin-top: 4rem;
+        border: 1px solid #e0e1e9;
+    }
+    .categoryPL{
+        margin-top: 5rem;
+        .container_category{
             border: 2px solid #e7cee3;
             position: relative;
-            min-height: 21rem;
             .titulo_posts{
+                width: fit-content;
                 h1{
                     font-size:1.5rem;
                     font-weight: bold;
                 }
-            }
-            .imagem_posts img{
-                width: 100%;
-                height: 100%;
-                padding: 1rem;
-
-            }
-            .resumo_posts{
-                p{
-                    font-size: 1.1rem;
-                    font-family: 'Baloo 2', cursive;
-                }
-                h2{
-                    font-size: 1.3rem;
-                }
-                .leiamais{
-                    text-align: right;
-                    color: #e4b4c2;
+                a{
                     text-decoration: none;
+                    color: #e4b4c2;
                 }
             }
-            .infos_posts{
-                background-color: #e0e1e9;
-                position: absolute;
-                bottom: 0;
-                left:0;
-                p{
-                    margin-bottom:0;
-                    font-size: 0.8rem;
-                    color: rgba(0, 0, 0, 0.599);
+        }
+    }
+    .categoryPLInterno{
+        margin-top: 2rem;
+        display:flex;
+        flex-wrap: wrap;
+        .container_category{
+            border: none;
+            position: relative;
+            .titulo_posts{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                .iconPosts{
+                    background-image: url('https://babyemcasa.com/wp-content/uploads/2022/05/baby-svgrepo-com.svg');
+                    background-repeat: no-repeat;
+                    background-size:contain;
+                    width: 10%;
+                    height: 1.5rem;
+                    margin-right: 1rem;
+                }
+                h1{
+                    font-size:1.5rem;
+                    font-weight: bold;
                 }
                 a{
                     text-decoration: none;
-                    color: rgba(0, 0, 0, 0.599);
-                }
-            }
-            .branco{
-                height: 3rem;
-            }
-
-        }
-
-        .container_post{
-            border: 2px solid #e7cee3;
-            position: relative;
-            margin-top: 4rem;
-            .imagem_post {
-                margin-bottom: 1rem;
-                width: 10rem;
-                height: 10rem;
-
-                img{
-                    width: 100%;
-                    height: 100%;
-                    padding: 1rem;
-                }
-            }
-            .resumo_post{
-                p{
-                    font-size: 1.5rem;
-                }
-            }
-            .infos_post{
-                background-color: #e0e1e9;
-                position: absolute;
-                bottom: 0;
-                left:0;
-                p{
-                    margin-bottom:0;
-                    font-size: 1.2rem;
-                    color: rgba(0, 0, 0, 0.599);
-                }
-            }
-            .branco{
-                height: 3rem;
-            }
-        }
-        .conteudo_post{
-            p{
-                font-size: 1.5rem;
-            }
-            h2{
-                font-size: 2.5rem;
-            }
-            ul{
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-            }
-        }
-        footer{
-            height: 7rem;
-            display: flex;
-            align-items: center;
-            background-color: #e0e1e9;
-            width: 100%;
-            bottom:0;
-            @include logo($fonte, footer);
-        }
-
-        .horizontalAds{
-            height: 6rem;
-            border: 1px solid #e0e1e9;
-            width: 100%;
-            margin: 0 auto;
-        }
-        .verticalAds{
-            border: 1px solid #e0e1e9;
-            height:100%;
-
-        }
-        .adsDireita{
-            right:2.5rem;
-        }
-        .verticalAdsInterno{
-            margin-top: 4rem;
-            border: 1px solid #e0e1e9;
-        }
-        .categoryPL{
-            margin-top: 5rem;
-            .container_category{
-                border: 2px solid #e7cee3;
-                position: relative;
-                .titulo_posts{
-                    width: fit-content;
-                    h1{
-                        font-size:1.5rem;
-                        font-weight: bold;
-                    }
-                    a{
-                        text-decoration: none;
-                        color: #e4b4c2;
-                    }
+                    color: #e4b4c2;
+                    width: 90%;
                 }
             }
         }
-        .categoryPLInterno{
-            margin-top: 2rem;
-            display:flex;
-            flex-wrap: wrap;
-            .container_category{
-                border: none;
-                position: relative;
-                .titulo_posts{
-                    width: fit-content;
-                    h1{
-                        font-size:1.5rem;
-                        font-weight: bold;
-                    }
-                    a{
-                        text-decoration: none;
-                        color: #e4b4c2;
-                    }
-                }
-            }
-        }
-
     }
+    .ocultar{
+        display:none;
+    }
+    .exibir{
+        display:block;
+        position: absolute;
+        bottom: 3rem;
+        background-color: white;
+        width:100%;
+        padding: 0 4rem;
+        padding-top: 1rem;
+        border-top: 2px solid #e4b4c2;
+    }
+    .exibePosts {
+        position: relative;
+        width:100%;
+        height: 1rem;
+        button{
+            background-image: url('https://babyemcasa.com/wp-content/uploads/2022/06/up-arrow-svgrepo-com.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 5rem;
+            height: 5rem;
+            border: none;
+            background-color: transparent;
+            position: absolute;
+            left: 42.5%;
+        }
+    }
+    .apontarAbaixo{
+        transform: rotate(180deg);
+    }
+    .apontarAcima{
+        transform: rotate(0deg);
+    }
+
     iframe{
         max-width: 90vw;
     }
@@ -351,5 +448,8 @@
         height: 12rem; 
         background-size: cover; 
         background-position: center top; 
+    }
+    .wpd-form-head{
+        display: none !important;
     }
 }

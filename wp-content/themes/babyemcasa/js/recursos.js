@@ -1,3 +1,19 @@
+function exibePosts(){
+    if (document.querySelector('.categoryPLInterno').classList.contains('ocultar')){
+        document.querySelector('.categoryPLInterno').classList.remove('ocultar')
+        document.querySelector('.categoryPLInterno').classList.add('exibir')
+        document.querySelector('.exibePosts button').classList.remove('apontarAcima')
+        document.querySelector('.exibePosts button').classList.add('apontarAbaixo')
+    }
+    else if (document.querySelector('.categoryPLInterno').classList.contains('exibir')){
+        document.querySelector('.categoryPLInterno').classList.remove('exibir')
+        document.querySelector('.categoryPLInterno').classList.add('ocultar')
+        document.querySelector('.exibePosts button').classList.remove('apontarAbaixo')
+        document.querySelector('.exibePosts button').classList.add('apontarAcima')
+    }
+
+}
+
 document.querySelector('.textoLogo').innerHTML = '<span class="logoP1">em</span><span class="logoP2"> Casa</span>'
 document.addEventListener("DOMContentLoaded", function(){
 try {
@@ -30,14 +46,14 @@ logoFooter.appendChild(logoMontado.cloneNode(true))
 document.querySelector('.logoMontado a .textoLogo .logoP2').style.width = "3.8rem"
 
 function menuOutrosSites(){
-    fazer = document.querySelector('.outrosSites').classList.contains('esconder')
+    fazer = document.querySelector('.outrosSites').classList.contains('esconderMenu')
     if(!!fazer){
-        document.querySelector('.outrosSites').classList.remove('esconder');
-        document.querySelector('.outrosSites').classList.add('exibir');
+        document.querySelector('.outrosSites').classList.remove('esconderMenu');
+        document.querySelector('.outrosSites').classList.add('exibirMenu');
     }
     else{
-        document.querySelector('.outrosSites').classList.remove('exibir');
-        document.querySelector('.outrosSites').classList.add('esconder');
+        document.querySelector('.outrosSites').classList.remove('exibirMenu');
+        document.querySelector('.outrosSites').classList.add('esconderMenu');
     }
 }
 

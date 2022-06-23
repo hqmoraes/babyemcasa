@@ -1,10 +1,19 @@
 @import 'comum';
 @media screen and (min-width: 200px){
-    @include topo(3vw);
+    $tm: 3vw;
+    @include topo($tm);
+    @include principal($tm);
+    @include base($tm);
 }
 @media screen and (min-width: 576px){
-    @include topo(2vw);
+    $tm: 2vw;
+    @include topo($tm);
+    @include principal($tm);
+    @include base($tm);
 }
 @media screen and (min-width: 768px){
-    @include topo(1.8vw);
+    $tm: 1.8vw;
+    @include topo($tm);
+    @include principal($tm);
+    @include base($tm);
 }
