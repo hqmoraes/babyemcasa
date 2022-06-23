@@ -1,3 +1,15 @@
+function menuOutrosSites(){
+    fazer = document.querySelector('.outrosSites').classList.contains('esconderMenu')
+    if(!!fazer){
+        document.querySelector('.outrosSites').classList.remove('esconderMenu');
+        document.querySelector('.outrosSites').classList.add('exibirMenu');
+    }
+    else{
+        document.querySelector('.outrosSites').classList.remove('exibirMenu');
+        document.querySelector('.outrosSites').classList.add('esconderMenu');
+    }
+}
+
 function exibePosts(){
     if (document.querySelector('.categoryPLInterno').classList.contains('ocultar')){
         document.querySelector('.categoryPLInterno').classList.remove('ocultar')
@@ -45,19 +57,6 @@ logoFooter.appendChild(logoMontado.cloneNode(true))
 
 document.querySelector('.logoMontado a .textoLogo .logoP2').style.width = "3.8rem"
 
-function menuOutrosSites(){
-    fazer = document.querySelector('.outrosSites').classList.contains('esconderMenu')
-    if(!!fazer){
-        document.querySelector('.outrosSites').classList.remove('esconderMenu');
-        document.querySelector('.outrosSites').classList.add('exibirMenu');
-    }
-    else{
-        document.querySelector('.outrosSites').classList.remove('exibirMenu');
-        document.querySelector('.outrosSites').classList.add('esconderMenu');
-    }
-}
-
-
 try {
     document.querySelector('.conteudo_post').childNodes.forEach(filho =>{
         if (filho.localName != undefined){
@@ -79,16 +78,11 @@ try {
     document.querySelector('.conteudo_post').lastElementChild.style = `
             clear: both;
         `
-    
-    
     document.querySelectorAll('.conteudo_post figure img').forEach(img =>{
         img.style = `
             width: 100%;
             height: auto;
         `
     })
-    
-    
 } catch (error) {
-    
 }

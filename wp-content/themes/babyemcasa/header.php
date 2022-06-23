@@ -26,14 +26,7 @@
                         </div>
                         <div class="col-12 outrosSites px-4 pt-3 esconderMenu">
                             <h4><div>Temas com</div><div>baby em casa</div></h4>
-                            <?php 
-                                $sites = get_sites(); ?>
-                                <ul class="p-1"> <?php
-                                foreach ($sites as $site){ ?>
-                                    <li class="py-2"><a href="https://<?php echo $site->domain; ?>"><?php echo $site->domain; ?></a></li>
-                                <?php
-                                }
-                            ?>
+                            <?php wp_nav_menu(); ?>
                             </ul>
                         </div>
                     </nav>

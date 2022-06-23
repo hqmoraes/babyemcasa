@@ -173,10 +173,10 @@ Text Domain: babyemcasa
     margin: 0;
     padding: 0;
   }
-  .menuPrincipal ul li:nth-child(odd) {
+  .menuPrincipal ul .ativo {
     background-color: #e0e1e9;
   }
-  .menuPrincipal ul li:nth-child(even) {
+  .menuPrincipal ul .inativo {
     background-color: white;
   }
   .menuPrincipal ul li {
@@ -185,6 +185,7 @@ Text Domain: babyemcasa
     text-align: center;
     font-family: "Baloo 2", cursive !important;
     font-size: 1.5rem;
+    border: 1px solid #e0e1e9;
   }
   .menuPrincipal ul li a {
     text-decoration: none;
@@ -640,10 +641,10 @@ Text Domain: babyemcasa
     margin: 0;
     padding: 0;
   }
-  .menuPrincipal ul li:nth-child(odd) {
+  .menuPrincipal ul .ativo {
     background-color: #e0e1e9;
   }
-  .menuPrincipal ul li:nth-child(even) {
+  .menuPrincipal ul .inativo {
     background-color: white;
   }
   .menuPrincipal ul li {
@@ -652,6 +653,7 @@ Text Domain: babyemcasa
     text-align: center;
     font-family: "Baloo 2", cursive !important;
     font-size: 1.5rem;
+    border: 1px solid #e0e1e9;
   }
   .menuPrincipal ul li a {
     text-decoration: none;
@@ -1107,10 +1109,10 @@ Text Domain: babyemcasa
     margin: 0;
     padding: 0;
   }
-  .menuPrincipal ul li:nth-child(odd) {
+  .menuPrincipal ul .ativo {
     background-color: #e0e1e9;
   }
-  .menuPrincipal ul li:nth-child(even) {
+  .menuPrincipal ul .inativo {
     background-color: white;
   }
   .menuPrincipal ul li {
@@ -1119,6 +1121,7 @@ Text Domain: babyemcasa
     text-align: center;
     font-family: "Baloo 2", cursive !important;
     font-size: 1.5rem;
+    border: 1px solid #e0e1e9;
   }
   .menuPrincipal ul li a {
     text-decoration: none;
@@ -1574,10 +1577,10 @@ Text Domain: babyemcasa
     margin: 0;
     padding: 0;
   }
-  .menuPrincipal ul li:nth-child(odd) {
+  .menuPrincipal ul .ativo {
     background-color: #e0e1e9;
   }
-  .menuPrincipal ul li:nth-child(even) {
+  .menuPrincipal ul .inativo {
     background-color: white;
   }
   .menuPrincipal ul li {
@@ -1586,6 +1589,7 @@ Text Domain: babyemcasa
     text-align: center;
     font-family: "Baloo 2", cursive !important;
     font-size: 1.5rem;
+    border: 1px solid #e0e1e9;
   }
   .menuPrincipal ul li a {
     text-decoration: none;
@@ -2041,10 +2045,10 @@ Text Domain: babyemcasa
     margin: 0;
     padding: 0;
   }
-  .menuPrincipal ul li:nth-child(odd) {
+  .menuPrincipal ul .ativo {
     background-color: #e0e1e9;
   }
-  .menuPrincipal ul li:nth-child(even) {
+  .menuPrincipal ul .inativo {
     background-color: white;
   }
   .menuPrincipal ul li {
@@ -2053,6 +2057,7 @@ Text Domain: babyemcasa
     text-align: center;
     font-family: "Baloo 2", cursive !important;
     font-size: 1.5rem;
+    border: 1px solid #e0e1e9;
   }
   .menuPrincipal ul li a {
     text-decoration: none;

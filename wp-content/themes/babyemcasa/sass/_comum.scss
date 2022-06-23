@@ -180,10 +180,10 @@
             list-style-type: none;
             margin: 0;
             padding:0;
-            li:nth-child(odd){
+            .ativo{
                 background-color:#e0e1e9;
             }
-            li:nth-child(even){
+            .inativo{
                 background-color:#ffff;
             }
             li{
@@ -192,6 +192,7 @@
                 text-align: center;
                 font-family: 'Baloo 2', cursive !important;
                 font-size: 1.5rem;
+                border: 1px solid #e0e1e9;
                 a{
                     text-decoration: none;
                 }

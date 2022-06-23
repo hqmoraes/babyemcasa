@@ -25,7 +25,6 @@
                             <?php
                                 } 
                             } ?>
-                            
             </div>
             <aside class="col-md-2 mt-4">
                 <?php get_template_part('template-parts/navigation/barra_lateral'); ?>
