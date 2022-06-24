@@ -28,6 +28,20 @@ function exibePosts(){
 
 document.querySelector('.textoLogo').innerHTML = '<span class="logoP1">em</span><span class="logoP2"> Casa</span>'
 document.addEventListener("DOMContentLoaded", function(){
+    try {
+        document.querySelectorAll('#menu-principal-1 li').forEach(li=>{
+            if (window.location.href == li.querySelector('a').href) {
+                li.classList.add('ativo')
+            }
+            else{
+                li.classList.add('inativo')
+            }
+//        document.querySelectorAll('#menu-principal-1 li').forEach(li=>{
+//            li.classList.add(li.querySelector('a').innerText)
+        })
+    } catch (error) {
+        
+    }
 try {
     let ctpost = document.querySelector('.container_post').offsetHeight
     document.querySelector('.ads.verticalAdsInterno').style.height = ctpost + 'px'
