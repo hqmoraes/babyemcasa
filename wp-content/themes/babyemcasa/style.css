@@ -194,11 +194,28 @@ Text Domain: babyemcasa
   aside {
     background-color: #e4b4c2;
   }
+  aside h2 {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+  aside ul {
+    padding: 0;
+  }
+  aside ul li {
+    list-style-type: none;
+  }
+  aside .wp-calendar thead {
+    margin-top: 1rem;
+  }
 
   .principal {
     scroll-padding-top: 4rem;
     margin-top: 0;
     z-index: -1;
+  }
+
+  nav .nav-links {
+    margin: 0 auto !important;
   }
 
   .container_posts {
@@ -249,7 +266,6 @@ Text Domain: babyemcasa
   .container_post {
     border: 2px solid #e7cee3;
     position: relative;
-    margin-top: 4rem;
   }
   .container_post .imagem_post {
     margin-bottom: 1rem;
@@ -662,11 +678,28 @@ Text Domain: babyemcasa
   aside {
     background-color: #e4b4c2;
   }
+  aside h2 {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+  aside ul {
+    padding: 0;
+  }
+  aside ul li {
+    list-style-type: none;
+  }
+  aside .wp-calendar thead {
+    margin-top: 1rem;
+  }
 
   .principal {
     scroll-padding-top: 4rem;
     margin-top: 0;
     z-index: -1;
+  }
+
+  nav .nav-links {
+    margin: 0 auto !important;
   }
 
   .container_posts {
@@ -717,7 +750,6 @@ Text Domain: babyemcasa
   .container_post {
     border: 2px solid #e7cee3;
     position: relative;
-    margin-top: 4rem;
   }
   .container_post .imagem_post {
     margin-bottom: 1rem;
@@ -1130,11 +1162,28 @@ Text Domain: babyemcasa
   aside {
     background-color: #e4b4c2;
   }
+  aside h2 {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+  aside ul {
+    padding: 0;
+  }
+  aside ul li {
+    list-style-type: none;
+  }
+  aside .wp-calendar thead {
+    margin-top: 1rem;
+  }
 
   .principal {
     scroll-padding-top: 4rem;
     margin-top: 0;
     z-index: -1;
+  }
+
+  nav .nav-links {
+    margin: 0 auto !important;
   }
 
   .container_posts {
@@ -1185,7 +1234,6 @@ Text Domain: babyemcasa
   .container_post {
     border: 2px solid #e7cee3;
     position: relative;
-    margin-top: 4rem;
   }
   .container_post .imagem_post {
     margin-bottom: 1rem;
@@ -1598,11 +1646,28 @@ Text Domain: babyemcasa
   aside {
     background-color: #e4b4c2;
   }
+  aside h2 {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+  aside ul {
+    padding: 0;
+  }
+  aside ul li {
+    list-style-type: none;
+  }
+  aside .wp-calendar thead {
+    margin-top: 1rem;
+  }
 
   .principal {
     scroll-padding-top: 4rem;
     margin-top: 0;
     z-index: -1;
+  }
+
+  nav .nav-links {
+    margin: 0 auto !important;
   }
 
   .container_posts {
@@ -1653,7 +1718,6 @@ Text Domain: babyemcasa
   .container_post {
     border: 2px solid #e7cee3;
     position: relative;
-    margin-top: 4rem;
   }
   .container_post .imagem_post {
     margin-bottom: 1rem;
@@ -2066,11 +2130,28 @@ Text Domain: babyemcasa
   aside {
     background-color: #e4b4c2;
   }
+  aside h2 {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+  aside ul {
+    padding: 0;
+  }
+  aside ul li {
+    list-style-type: none;
+  }
+  aside .wp-calendar thead {
+    margin-top: 1rem;
+  }
 
   .principal {
     scroll-padding-top: 4rem;
     margin-top: 0;
     z-index: -1;
+  }
+
+  nav .nav-links {
+    margin: 0 auto !important;
   }
 
   .container_posts {
@@ -2121,7 +2202,6 @@ Text Domain: babyemcasa
   .container_post {
     border: 2px solid #e7cee3;
     position: relative;
-    margin-top: 4rem;
   }
   .container_post .imagem_post {
     margin-bottom: 1rem;

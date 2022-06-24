@@ -201,11 +201,31 @@
     }
     aside{
         background-color:#e4b4c2;
+        h2{
+            padding-top: 2rem;
+            font-size: 1.5rem;
+        }
+        ul{
+            padding:0;
+            li{
+                list-style-type: none;
+            }
+        }
+        .wp-calendar{
+            thead{
+                margin-top: 1rem;
+            }
+        }
     }
     .principal{
         scroll-padding-top: 4rem;
         margin-top: 0;
         z-index: -1;
+    }
+    nav{
+        .nav-links{
+            margin: 0 auto !important;
+        }
     }
 
     .container_posts{
@@ -262,7 +282,6 @@
     .container_post{
         border: 2px solid #e7cee3;
         position: relative;
-        margin-top: 4rem;
         .imagem_post {
             margin-bottom: 1rem;
             width: 10rem;

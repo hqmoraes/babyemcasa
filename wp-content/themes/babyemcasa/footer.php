@@ -1,3 +1,6 @@
+</div>
+</div>
+</main>
 <footer>
     <div class="container-fluid">
         <div class="row align-items-center">
