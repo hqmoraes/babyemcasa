@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<main class="container">
     <div class="row">
         <nav class="col-12 col-md-10 mx-auto menuPrincipal"><?php wp_nav_menu(); ?></nav>
     </div>
@@ -42,7 +41,7 @@
         </div>
         <div class="exibePosts apontarAcima"><button onclick="exibePosts()"></button></div>
     </div>
-            </main>
+
 <?php
 
 get_footer();

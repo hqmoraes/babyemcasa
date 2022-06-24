@@ -194,6 +194,14 @@ Text Domain: babyemcasa
   aside {
     background-color: #e4b4c2;
   }
+  aside select, aside input[type=text] {
+    width: 100%;
+    font-size: 1rem;
+  }
+  aside tbody, aside td, aside tfoot, aside th, aside thead, aside tr {
+    font-size: 1.5rem;
+    padding: 0 0.6rem;
+  }
   aside h2 {
     padding-top: 2rem;
     font-size: 1.5rem;
@@ -677,6 +685,14 @@ Text Domain: babyemcasa
 
   aside {
     background-color: #e4b4c2;
+  }
+  aside select, aside input[type=text] {
+    width: 100%;
+    font-size: 1rem;
+  }
+  aside tbody, aside td, aside tfoot, aside th, aside thead, aside tr {
+    font-size: 1.5rem;
+    padding: 0 0.6rem;
   }
   aside h2 {
     padding-top: 2rem;
@@ -1162,6 +1178,14 @@ Text Domain: babyemcasa
   aside {
     background-color: #e4b4c2;
   }
+  aside select, aside input[type=text] {
+    width: 100%;
+    font-size: 1rem;
+  }
+  aside tbody, aside td, aside tfoot, aside th, aside thead, aside tr {
+    font-size: 1.5rem;
+    padding: 0 0.6rem;
+  }
   aside h2 {
     padding-top: 2rem;
     font-size: 1.5rem;
@@ -1646,6 +1670,14 @@ Text Domain: babyemcasa
   aside {
     background-color: #e4b4c2;
   }
+  aside select, aside input[type=text] {
+    width: 100%;
+    font-size: 1rem;
+  }
+  aside tbody, aside td, aside tfoot, aside th, aside thead, aside tr {
+    font-size: 1.5rem;
+    padding: 0 0.6rem;
+  }
   aside h2 {
     padding-top: 2rem;
     font-size: 1.5rem;
@@ -2129,6 +2161,14 @@ Text Domain: babyemcasa
 
   aside {
     background-color: #e4b4c2;
+  }
+  aside select, aside input[type=text] {
+    width: 100%;
+    font-size: 1rem;
+  }
+  aside tbody, aside td, aside tfoot, aside th, aside thead, aside tr {
+    font-size: 1.5rem;
+    padding: 0 0.6rem;
   }
   aside h2 {
     padding-top: 2rem;

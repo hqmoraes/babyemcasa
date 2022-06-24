@@ -36,13 +36,13 @@
         <div class="row">
             <div class="col-12 col-md-10 mx-auto blogTitulo d-flex align-items-center justify-content-center">
                 <div class="col-6 tituloParts">
-                    <h4 class="p-0"><?php echo get_bloginfo('title') ?></h3>
+                    <h4 class="p-0">Blog</h3>
                     <p class="p-0"><?php echo get_bloginfo('description') ?></p>
                 </div>
             </div>
         </div>
     </div>
-</header>    
+</header>
 
 
 

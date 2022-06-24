@@ -1,11 +1,10 @@
 <div class="container">
     <div class="row">
-        <div class="col-12">
-            <?php the_widget( 'WP_Widget_Archives', 'dropdown=1' ); 
-            the_widget( 'WP_Widget_Calendar');
-            the_widget( 'WP_Widget_Categories', 'dropdown=1&count=1' ); ?>
+        <div class="col-md-12 col-8 pb-4 mx-auto">
+            <div>
             <h2>Pesquisar no blog</h2>
-            <?php the_widget( 'WP_Widget_Search'); ?> 
+            <div><?php the_widget( 'WP_Widget_Search'); ?> </div>
+            </div>
         </div>
     </div>
 </div>

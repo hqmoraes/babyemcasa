@@ -1,4 +1,7 @@
 <?php
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
 
 /**
  * As configurações básicas do WordPress
@@ -86,15 +89,15 @@ $table_prefix = 'hspd_';
 define( 'WP_DEBUG', false );
 
 /* Adicione valores personalizados entre esta linha até "Isto é tudo". */
-
-define('WP_ALLOW_MULTISITE', true);
-define( 'MULTISITE', true );
+/*
+define('WP_ALLOW_MULTISITE', false);
+define( 'MULTISITE', false );
 define( 'SUBDOMAIN_INSTALL', true );
 define( 'DOMAIN_CURRENT_SITE', 'babyemcasa.com' );
 define( 'PATH_CURRENT_SITE', '/' );
 define( 'SITE_ID_CURRENT_SITE', 1 );
 define( 'BLOG_ID_CURRENT_SITE', 1 );
-
+*/
 /* Isto é tudo, pode parar de editar! :) */
 
 /** Caminho absoluto para o diretório WordPress. */
