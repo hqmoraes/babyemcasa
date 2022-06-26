@@ -1,4 +1,4 @@
-<div class="col-12 col-md-10 display-6 mt-4">
+<div class="col-12 col-md-10 display-6 my-4">
     <?php
         the_posts_pagination( array(
         'mid_size'  => 5,

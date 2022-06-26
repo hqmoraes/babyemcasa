@@ -1,10 +1,6 @@
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 col-8 pb-4 mx-auto">
-            <div>
-            <h2>Pesquisar no blog</h2>
-            <div><?php the_widget( 'WP_Widget_Search'); ?> </div>
-            </div>
-        </div>
+<aside class="w-100 h-100 p-4 p-md-1">
+    <div>
+        <h2 style="font-size: 1.1rem">Encontre</h2>
+        <?php the_widget( 'WP_Widget_Search'); ?>
     </div>
-</div>
+</aside>
