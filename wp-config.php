@@ -2,6 +2,7 @@
 
 
 
+
 /**
  * As configurações básicas do WordPress
  *

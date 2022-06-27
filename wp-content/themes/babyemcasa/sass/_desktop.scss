@@ -6,7 +6,7 @@
     @include base($tm);
 }
 @media screen and (min-width: 1400px){
-    $tm: 20px;
+    $tm: 18px;
     @include topo($tm);
     @include principal($tm);
     @include base($tm);

@@ -11,10 +11,10 @@
                                 <div class="container pb-2">
                                     <section class="row container-posts me-md-1">
 <!--                                        <div class="col-12" style="width: 20rem; height:20rem; background-repeat: no-repeat; background-position: center top; background-size: cover; background-image: url(<?php echo get_the_post_thumbnail_url(get_the_ID(),'medium'); ?>)"></div> -->
-                                        <div class="col-12 d-flex  align-items-center">
-                                            <img class="col-md-4 img-fluid" src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'medium'); ?>" alt="">
-                                            <div class="col-md-8 ps-3 resumo_posts">
-                                                <h1 style="font-size:1.3rem"><?php the_title(); ?></h1>
+                                        <div class="col-12 d-flex align-items-center flex-wrap">
+                                            <img class="col-12 col-md-4 img-fluid" src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'medium'); ?>" alt="">
+                                            <div class="col-12 col-md-8 ps-3 resumo_posts">
+                                                <h1><?php the_title(); ?></h1>
                                                 <p><?php echo get_the_excerpt(); ?></p>
                                             </div>
                                         </div>
@@ -29,6 +29,6 @@
                         }
                         ?>
         </div>
-        <div class="col-12 col-md-2"><?php get_template_part('template-parts/navigation/barra_lateral'); ?></div>
+        <div class="col-12 col-md-2 mb-md-1"><?php get_template_part('template-parts/navigation/barra_lateral'); ?></div>
     </div>
 </div>

@@ -49,12 +49,6 @@ try {
     
 }
 
-try {
-    document.querySelector('figure.is-type-video iframe').style.width='90vw'
-} catch (error) {
-    
-}
-
 });
 
 let fecharMenu = document.querySelector('.outrosSites')
@@ -71,32 +65,12 @@ logoFooter.appendChild(logoMontado.cloneNode(true))
 
 document.querySelector('.logoMontado a .textoLogo .logoP2').style.width = "3.8rem"
 
-try {
-    document.querySelector('.conteudo_post').childNodes.forEach(filho =>{
-        if (filho.localName != undefined){
-            if(filho.localName == 'ul'){
-                filho.childNodes.forEach(li=>{
-                    li.setAttribute('class','col-12')
-                })
-            }
-            else if(filho.localName == 'figure' && !filho.classList.contains('is-type-video')){
-                filho.style = `
-                    float: right;
-                    margin-right: 1rem;
-                    margin-left: 0.5rem;
-                    max-width: 50%;
-                `
-            }
-        }
-    })
-    document.querySelector('.conteudo_post').lastElementChild.style = `
-            clear: both;
-        `
-    document.querySelectorAll('.conteudo_post figure img').forEach(img =>{
-        img.style = `
-            width: 100%;
-            height: auto;
-        `
-    })
-} catch (error) {
-}
+document.querySelectorAll('p a').forEach(video=>{
+    if(/^vídeo/.test(video.innerText)){
+        vd = video.href.substring(video.href.lastIndexOf('/'))
+        video.parentElement.innerHTML = '<iframe title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src=https://youtube.com/embed' + vd + '></iframe>'
+    }
+
+})
+
+//<iframe width="560" height="315" src="https://www.youtube.com/embed/RtRGCb4R5bI" ></iframe>

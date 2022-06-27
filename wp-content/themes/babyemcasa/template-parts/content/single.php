@@ -1,4 +1,4 @@
-<div class="row mb-md-4 justify-content-center">
+<div class="row justify-content-center" style="margin-bottom: 1rem;">
     <div class="col-12 col-md-10 d-flex flex-wrap">
         <div class="col-12 col-md-10 pe-2">
             <section class="container_post col-12 p-4">
