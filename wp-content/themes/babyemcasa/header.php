@@ -7,7 +7,7 @@
 
     <title><?php echo get_bloginfo('name') ?></title>
     <?php wp_head(); ?>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6299333406589809" crossorigin="anonymous"></script>
+<!--    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6299333406589809" crossorigin="anonymous"></script> -->
 </head>
 <body <?php body_class(); ?>>
 <header>
@@ -42,6 +42,9 @@
             </div>
         </div>
     </div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">	
 </header>
 <main class="container">
 

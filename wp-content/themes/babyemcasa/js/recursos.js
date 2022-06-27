@@ -68,9 +68,7 @@ document.querySelector('.logoMontado a .textoLogo .logoP2').style.width = "3.8re
 document.querySelectorAll('p a').forEach(video=>{
     if(/^vídeo/.test(video.innerText)){
         vd = video.href.substring(video.href.lastIndexOf('/'))
-        video.parentElement.innerHTML = '<iframe title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src=https://youtube.com/embed' + vd + '></iframe>'
+        video.parentElement.innerHTML = `<iframe title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src=https://youtube.com/embed${vd}></iframe>`
     }
 
 })
-
-//<iframe width="560" height="315" src="https://www.youtube.com/embed/RtRGCb4R5bI" ></iframe>
