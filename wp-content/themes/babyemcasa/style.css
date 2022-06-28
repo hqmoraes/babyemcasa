@@ -190,6 +190,7 @@ Text Domain: babyemcasa
 
   aside {
     background-color: #e4b4c2;
+    height: 100%;
   }
   aside select, aside input[type=text] {
     width: 100%;
@@ -271,6 +272,13 @@ Text Domain: babyemcasa
     border: 2px solid #e7cee3;
     position: relative;
   }
+  .container_post .titulo_posts h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .container_post figure {
+    margin-top: 1rem;
+  }
   .container_post .imagem_post {
     margin-bottom: 1rem;
     width: 10rem;
@@ -281,9 +289,6 @@ Text Domain: babyemcasa
     height: 100%;
     padding: 1rem;
   }
-  .container_post .resumo_post p {
-    font-size: 1.5rem;
-  }
   .container_post .infos_post {
     background-color: #e0e1e9;
     position: absolute;
@@ -292,23 +297,43 @@ Text Domain: babyemcasa
   }
   .container_post .infos_post p {
     margin-bottom: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: rgba(0, 0, 0, 0.599);
+    font-family: "Baloo 2", cursive !important;
   }
   .container_post .branco {
     height: 3rem;
   }
 
   .conteudo_post p {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin: 0;
+    font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  h3, h5 a {
+    font-family: "Baloo 2", cursive !important;
+  }
+
+  h5 a {
+    font-size: 1rem;
+  }
+
+  .img-carrossel {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5rem;
+    background-size: cover;
+    margin: 0 auto;
   }
 
   footer {
@@ -499,7 +524,7 @@ Text Domain: babyemcasa
 }
 @media screen and (min-width: 576px) {
   html {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
   html {
@@ -639,7 +664,7 @@ Text Domain: babyemcasa
   }
 
   html {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
   .menuPrincipal ul {
@@ -670,6 +695,7 @@ Text Domain: babyemcasa
 
   aside {
     background-color: #e4b4c2;
+    height: 100%;
   }
   aside select, aside input[type=text] {
     width: 100%;
@@ -751,6 +777,13 @@ Text Domain: babyemcasa
     border: 2px solid #e7cee3;
     position: relative;
   }
+  .container_post .titulo_posts h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .container_post figure {
+    margin-top: 1rem;
+  }
   .container_post .imagem_post {
     margin-bottom: 1rem;
     width: 10rem;
@@ -761,9 +794,6 @@ Text Domain: babyemcasa
     height: 100%;
     padding: 1rem;
   }
-  .container_post .resumo_post p {
-    font-size: 1.5rem;
-  }
   .container_post .infos_post {
     background-color: #e0e1e9;
     position: absolute;
@@ -772,23 +802,43 @@ Text Domain: babyemcasa
   }
   .container_post .infos_post p {
     margin-bottom: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: rgba(0, 0, 0, 0.599);
+    font-family: "Baloo 2", cursive !important;
   }
   .container_post .branco {
     height: 3rem;
   }
 
   .conteudo_post p {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin: 0;
+    font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  h3, h5 a {
+    font-family: "Baloo 2", cursive !important;
+  }
+
+  h5 a {
+    font-size: 1rem;
+  }
+
+  .img-carrossel {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5rem;
+    background-size: cover;
+    margin: 0 auto;
   }
 
   footer {
@@ -1150,6 +1200,7 @@ Text Domain: babyemcasa
 
   aside {
     background-color: #e4b4c2;
+    height: 100%;
   }
   aside select, aside input[type=text] {
     width: 100%;
@@ -1231,6 +1282,13 @@ Text Domain: babyemcasa
     border: 2px solid #e7cee3;
     position: relative;
   }
+  .container_post .titulo_posts h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .container_post figure {
+    margin-top: 1rem;
+  }
   .container_post .imagem_post {
     margin-bottom: 1rem;
     width: 10rem;
@@ -1241,9 +1299,6 @@ Text Domain: babyemcasa
     height: 100%;
     padding: 1rem;
   }
-  .container_post .resumo_post p {
-    font-size: 1.5rem;
-  }
   .container_post .infos_post {
     background-color: #e0e1e9;
     position: absolute;
@@ -1252,23 +1307,43 @@ Text Domain: babyemcasa
   }
   .container_post .infos_post p {
     margin-bottom: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: rgba(0, 0, 0, 0.599);
+    font-family: "Baloo 2", cursive !important;
   }
   .container_post .branco {
     height: 3rem;
   }
 
   .conteudo_post p {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin: 0;
+    font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  h3, h5 a {
+    font-family: "Baloo 2", cursive !important;
+  }
+
+  h5 a {
+    font-size: 1rem;
+  }
+
+  .img-carrossel {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5rem;
+    background-size: cover;
+    margin: 0 auto;
   }
 
   footer {
@@ -1459,7 +1534,7 @@ Text Domain: babyemcasa
 }
 @media screen and (min-width: 992px) {
   html {
-    font-size: 1vw;
+    font-size: 1.3vw;
   }
 
   html {
@@ -1599,7 +1674,7 @@ Text Domain: babyemcasa
   }
 
   html {
-    font-size: 1vw;
+    font-size: 1.3vw;
   }
 
   .menuPrincipal ul {
@@ -1630,6 +1705,7 @@ Text Domain: babyemcasa
 
   aside {
     background-color: #e4b4c2;
+    height: 100%;
   }
   aside select, aside input[type=text] {
     width: 100%;
@@ -1711,6 +1787,13 @@ Text Domain: babyemcasa
     border: 2px solid #e7cee3;
     position: relative;
   }
+  .container_post .titulo_posts h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .container_post figure {
+    margin-top: 1rem;
+  }
   .container_post .imagem_post {
     margin-bottom: 1rem;
     width: 10rem;
@@ -1721,9 +1804,6 @@ Text Domain: babyemcasa
     height: 100%;
     padding: 1rem;
   }
-  .container_post .resumo_post p {
-    font-size: 1.5rem;
-  }
   .container_post .infos_post {
     background-color: #e0e1e9;
     position: absolute;
@@ -1732,23 +1812,43 @@ Text Domain: babyemcasa
   }
   .container_post .infos_post p {
     margin-bottom: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: rgba(0, 0, 0, 0.599);
+    font-family: "Baloo 2", cursive !important;
   }
   .container_post .branco {
     height: 3rem;
   }
 
   .conteudo_post p {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin: 0;
+    font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  h3, h5 a {
+    font-family: "Baloo 2", cursive !important;
+  }
+
+  h5 a {
+    font-size: 1rem;
+  }
+
+  .img-carrossel {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5rem;
+    background-size: cover;
+    margin: 0 auto;
   }
 
   footer {
@@ -2110,6 +2210,7 @@ Text Domain: babyemcasa
 
   aside {
     background-color: #e4b4c2;
+    height: 100%;
   }
   aside select, aside input[type=text] {
     width: 100%;
@@ -2191,6 +2292,13 @@ Text Domain: babyemcasa
     border: 2px solid #e7cee3;
     position: relative;
   }
+  .container_post .titulo_posts h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .container_post figure {
+    margin-top: 1rem;
+  }
   .container_post .imagem_post {
     margin-bottom: 1rem;
     width: 10rem;
@@ -2201,9 +2309,6 @@ Text Domain: babyemcasa
     height: 100%;
     padding: 1rem;
   }
-  .container_post .resumo_post p {
-    font-size: 1.5rem;
-  }
   .container_post .infos_post {
     background-color: #e0e1e9;
     position: absolute;
@@ -2212,23 +2317,43 @@ Text Domain: babyemcasa
   }
   .container_post .infos_post p {
     margin-bottom: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: rgba(0, 0, 0, 0.599);
+    font-family: "Baloo 2", cursive !important;
   }
   .container_post .branco {
     height: 3rem;
   }
 
   .conteudo_post p {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin: 0;
+    font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  h3, h5 a {
+    font-family: "Baloo 2", cursive !important;
+  }
+
+  h5 a {
+    font-size: 1rem;
+  }
+
+  .img-carrossel {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5rem;
+    background-size: cover;
+    margin: 0 auto;
   }
 
   footer {

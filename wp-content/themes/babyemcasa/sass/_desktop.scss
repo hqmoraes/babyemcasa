@@ -1,6 +1,6 @@
 @import 'comum';
 @media screen and (min-width: 992px){
-    $tm: 1vw;
+    $tm: 1.3vw;
     @include topo($tm);
     @include principal($tm);
     @include base($tm);

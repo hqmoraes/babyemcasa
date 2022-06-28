@@ -201,6 +201,7 @@
     }
     aside{
         background-color:#e4b4c2;
+        height: 100%;
         select, input[type=text] {
             width:100%;
             font-size: 1rem;
@@ -284,31 +285,36 @@
     .container_post{
         border: 2px solid #e7cee3;
         position: relative;
+        .titulo_posts{
+            h1{
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+        }
+        figure{
+            margin-top: 1rem;
+        }
         .imagem_post {
             margin-bottom: 1rem;
             width: 10rem;
             height: 10rem;
-
             img{
                 width: 100%;
                 height: 100%;
                 padding: 1rem;
             }
         }
-        .resumo_post{
-            p{
-                font-size: 1.5rem;
-            }
-        }
         .infos_post{
+            $fonte: 'Baloo 2', cursive !important;
             background-color: #e0e1e9;
             position: absolute;
             bottom: 0;
             left:0;
             p{
                 margin-bottom:0;
-                font-size: 1.2rem;
+                font-size: 1rem;
                 color: rgba(0, 0, 0, 0.599);
+                font-family: $fonte;
             }
         }
         .branco{
@@ -316,17 +322,36 @@
         }
     }
     .conteudo_post{
+        $fonte: 'Baloo 2', cursive !important;
         p{
-            font-size: 1.5rem;
+            font-size: 1rem;
+            margin:0;
+            font-family: $fonte;
+            
         }
         h2{
-            font-size: 2.5rem;
+            font-size: 1.5rem;
+            font-family: $fonte;
         }
         ul{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
         }
+    }
+    h3, h5 a{
+        font-family: 'Baloo 2', cursive !important;
+    }
+    h5 a{
+        font-size: 1rem;
+    }
+    .img-carrossel{
+        $tc: 4rem;
+        width: $tc;
+        height: $tc;
+        border-radius: 5rem;
+        background-size:cover;
+        margin: 0 auto;
     }
 }
 @mixin base($tm){
