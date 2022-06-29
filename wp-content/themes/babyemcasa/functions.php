@@ -45,7 +45,7 @@ add_filter( 'excerpt_length', 'wp_excerpt_length');
         wp_enqueue_style('botstrap_css', "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css",5);
         wp_enqueue_script('recursos',get_stylesheet_directory_uri() . '/js/recursos.js',array(),1,true);
     }
-add_action('wp_enqueue_scripts','add_scripts', 1);
+add_action('wp_enqueue_scripts','add_scripts', 95);
 
 function local_style(){
     wp_enqueue_style('style', get_stylesheet_directory_uri() . '/style.css',1);
@@ -73,4 +73,8 @@ function reg_widgets_init() {
 }
 add_action( 'widgets_init', 'reg_widgets_init' );
 
-?>
+
+function wpassist_remove_block_library_css(){
+    wp_dequeue_style( 'wp-block-library' );
+} 
+add_action( 'wp_enqueue_scripts', 'wpassist_remove_block_library_css' );

@@ -75,7 +75,8 @@
         scroll-padding-top: $altura;
         $bg_topo: linear-gradient(to right,#e4b4c2,#e7cee3);
         img{
-            max-width: 90vw;
+            max-width: 100%;
+            height: auto;
         }
 
         body{

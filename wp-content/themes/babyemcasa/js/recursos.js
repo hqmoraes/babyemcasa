@@ -26,8 +26,21 @@ function exibePosts(){
 
 }
 
-document.querySelector('.textoLogo').innerHTML = '<span class="logoP1">em</span><span class="logoP2"> Casa</span>'
 document.addEventListener("DOMContentLoaded", function(){
+    document.querySelector('.textoLogo').innerHTML = '<span class="logoP1">em</span><span class="logoP2"> Casa</span>'
+    try {
+        let links = document.querySelectorAll('a').forEach(lnk=>{
+            let atual = lnk.href;
+            let base = /https:\/\/www.babyemcasa.com/
+            let result = base.test(atual)
+            if (result === true){
+                lnk.href = atual.replace(base,'');
+            }
+
+        })
+    } catch (error) {
+        
+    }
     try {
         document.querySelectorAll('#menu-principal-1 li').forEach(li=>{
             if (window.location.href == li.querySelector('a').href) {
@@ -36,39 +49,36 @@ document.addEventListener("DOMContentLoaded", function(){
             else{
                 li.classList.add('inativo')
             }
-//        document.querySelectorAll('#menu-principal-1 li').forEach(li=>{
-//            li.classList.add(li.querySelector('a').innerText)
         })
     } catch (error) {
         
     }
-try {
-    let ctpost = document.querySelector('.container_post').offsetHeight
-    document.querySelector('.ads.verticalAdsInterno').style.height = ctpost + 'px'
-} catch (error) {
-    
-}
-
-});
-
-let fecharMenu = document.querySelector('.outrosSites')
-let criarBotao = document.createElement('button');
-criarBotao.classList.add('botaoFechar');
-criarBotao.setAttribute('onclick','menuOutrosSites()')
-fecharMenu.prepend(criarBotao);
-
-
-let logoFooter = document.querySelector('.logoFooter')
-let logoMontado = document.querySelector('.logoMontado')
-
-logoFooter.appendChild(logoMontado.cloneNode(true))
-
-document.querySelector('.logoMontado a .textoLogo .logoP2').style.width = "3.8rem"
-
-document.querySelectorAll('p a').forEach(video=>{
-    if(/^vídeo/.test(video.innerText)){
-        vd = video.href.substring(video.href.lastIndexOf('/'))
-        video.parentElement.innerHTML = `<iframe title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src=https://youtube.com/embed${vd}></iframe>`
+    try {
+        let ctpost = document.querySelector('.container_post').offsetHeight
+        document.querySelector('.ads.verticalAdsInterno').style.height = ctpost + 'px'
+    } 
+    catch (error) {
+        
     }
 
-})
+    let fecharMenu = document.querySelector('.outrosSites')
+    let criarBotao = document.createElement('button');
+    criarBotao.classList.add('botaoFechar');
+    criarBotao.setAttribute('onclick','menuOutrosSites()')
+    fecharMenu.prepend(criarBotao);
+
+
+    let logoFooter = document.querySelector('.logoFooter')
+    let logoMontado = document.querySelector('.logoMontado')
+
+    logoFooter.appendChild(logoMontado.cloneNode(true))
+
+    document.querySelector('.logoMontado a .textoLogo .logoP2').style.width = "3.8rem"
+
+    document.querySelectorAll('p a').forEach(video=>{
+        if(/^vídeo/.test(video.innerText)){
+            vd = video.href.substring(video.href.lastIndexOf('/'))
+            video.parentElement.innerHTML = `<iframe title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src=https://youtube.com/embed${vd}></iframe>`
+        }
+    })
+});

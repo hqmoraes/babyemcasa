@@ -31,7 +31,8 @@ Text Domain: babyemcasa
     scroll-padding-top: 4rem;
   }
   html img {
-    max-width: 90vw;
+    max-width: 100%;
+    height: auto;
   }
   html body {
     position: relative;
@@ -549,7 +550,8 @@ Text Domain: babyemcasa
     scroll-padding-top: 4rem;
   }
   html img {
-    max-width: 90vw;
+    max-width: 100%;
+    height: auto;
   }
   html body {
     position: relative;
@@ -1067,7 +1069,8 @@ Text Domain: babyemcasa
     scroll-padding-top: 4rem;
   }
   html img {
-    max-width: 90vw;
+    max-width: 100%;
+    height: auto;
   }
   html body {
     position: relative;
@@ -1594,7 +1597,8 @@ Text Domain: babyemcasa
     scroll-padding-top: 4rem;
   }
   html img {
-    max-width: 90vw;
+    max-width: 100%;
+    height: auto;
   }
   html body {
     position: relative;
@@ -2112,7 +2116,8 @@ Text Domain: babyemcasa
     scroll-padding-top: 4rem;
   }
   html img {
-    max-width: 90vw;
+    max-width: 100%;
+    height: auto;
   }
   html body {
     position: relative;
