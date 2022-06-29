@@ -1,5 +1,5 @@
 <?php exit; ?>{
-    "version": "2.2.2",
+    "version": "2.2.3",
     "cluster.messagebus.debug": false,
     "cluster.messagebus.enabled": false,
     "cluster.messagebus.sns.region": "",
@@ -194,24 +194,40 @@
         "wp-links-opml.php",
         "wp-locations.php"
     ],
-    "pgcache.accept.qs": [],
+    "pgcache.accept.qs": [
+        ""
+    ],
     "pgcache.late_init": false,
     "pgcache.late_caching": false,
     "pgcache.mirrors.enabled": false,
-    "pgcache.mirrors.home_urls": [],
+    "pgcache.mirrors.home_urls": [
+        ""
+    ],
     "pgcache.reject.front_page": false,
     "pgcache.reject.logged": true,
     "pgcache.reject.logged_roles": false,
-    "pgcache.reject.roles": [],
+    "pgcache.reject.roles": [
+        ""
+    ],
     "pgcache.reject.uri": [
         "wp-.*\\.php",
         "index\\.php"
     ],
-    "pgcache.reject.categories": [],
-    "pgcache.reject.tags": [],
-    "pgcache.reject.authors": [],
-    "pgcache.reject.custom": [],
-    "pgcache.reject.ua": [],
+    "pgcache.reject.categories": [
+        ""
+    ],
+    "pgcache.reject.tags": [
+        ""
+    ],
+    "pgcache.reject.authors": [
+        ""
+    ],
+    "pgcache.reject.custom": [
+        ""
+    ],
+    "pgcache.reject.ua": [
+        ""
+    ],
     "pgcache.reject.cookie": [
         "wptouch_switch_toggle"
     ],
@@ -233,9 +249,11 @@
         "rss2"
     ],
     "pgcache.purge.postpages_limit": 10,
-    "pgcache.purge.pages": [],
+    "pgcache.purge.pages": [
+        ""
+    ],
     "pgcache.purge.sitemap_regex": "([a-z0-9_\\-]*?)sitemap([a-z0-9_\\-]*)?\\.xml",
-    "pgcache.prime.enabled": false,
+    "pgcache.prime.enabled": true,
     "pgcache.prime.interval": 900,
     "pgcache.prime.limit": 10,
     "pgcache.prime.sitemap": "",
@@ -406,13 +424,13 @@
         "{plugins_dir}\/*.jpg",
         "{plugins_dir}\/*.png"
     ],
-    "cdn.import.files": false,
+    "cdn.import.files": "",
     "cdn.queue.interval": 900,
     "cdn.queue.limit": 25,
     "cdn.force.rewrite": false,
     "cdn.autoupload.enabled": false,
     "cdn.autoupload.interval": 3600,
-    "cdn.canonical_header": false,
+    "cdn.canonical_header": true,
     "cdn.admin.media_library": false,
     "cdn.cors_header": true,
     "cdn.ftp.host": "",
@@ -519,8 +537,12 @@
     "cdn.stackpath2.ssl": "auto",
     "cdn.reject.admins": false,
     "cdn.reject.logged_roles": false,
-    "cdn.reject.roles": [],
-    "cdn.reject.ua": [],
+    "cdn.reject.roles": [
+        ""
+    ],
+    "cdn.reject.ua": [
+        ""
+    ],
     "cdn.reject.uri": [],
     "cdn.reject.files": [
         "{uploads_dir}\/wpcf7_captcha\/*",
@@ -574,18 +596,18 @@
     "browsercache.cssjs.cache.control": true,
     "browsercache.cssjs.cache.policy": "cache_public_maxage",
     "browsercache.cssjs.etag": true,
-    "browsercache.cssjs.w3tc": false,
+    "browsercache.cssjs.w3tc": true,
     "browsercache.cssjs.replace": false,
     "browsercache.cssjs.querystring": false,
     "browsercache.html.compression": true,
     "browsercache.html.brotli": false,
     "browsercache.html.last_modified": true,
-    "browsercache.html.expires": false,
+    "browsercache.html.expires": true,
     "browsercache.html.lifetime": 3600,
     "browsercache.html.cache.control": true,
     "browsercache.html.cache.policy": "cache_public_maxage",
     "browsercache.html.etag": true,
-    "browsercache.html.w3tc": false,
+    "browsercache.html.w3tc": true,
     "browsercache.html.replace": false,
     "browsercache.other.last_modified": true,
     "browsercache.other.compression": true,
@@ -596,10 +618,12 @@
     "browsercache.other.cache.control": true,
     "browsercache.other.cache.policy": "cache_public_maxage",
     "browsercache.other.etag": true,
-    "browsercache.other.w3tc": false,
+    "browsercache.other.w3tc": true,
     "browsercache.other.replace": false,
     "browsercache.other.querystring": false,
-    "browsercache.replace.exceptions": [],
+    "browsercache.replace.exceptions": [
+        ""
+    ],
     "browsercache.security.session.cookie_httponly": "",
     "browsercache.security.session.cookie_secure": "",
     "browsercache.security.session.use_only_cookies": "",
@@ -617,7 +641,7 @@
     "browsercache.security.pkp.extra": "maxage",
     "browsercache.security.pkp.report.url": "",
     "browsercache.security.pkp.report.only": "0",
-    "browsercache.security.referrer.policy": "false",
+    "browsercache.security.referrer.policy": true,
     "browsercache.security.referrer.policy.directive": "no-referrer-when-downgrade",
     "browsercache.security.csp": false,
     "browsercache.security.csp.base": "",

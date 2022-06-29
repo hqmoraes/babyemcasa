@@ -1,5 +1,14 @@
+/*
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+*/
+
+@font-face{
+    font-family: 'Baloo 2';
+    src: url(fontes/Baloo_2/Baloo2-VariableFont_wght.ttf);
+    font-display: swap;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Amita&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 @mixin logo($local){
@@ -147,7 +156,7 @@
                 position:absolute;
                 top:-2rem;
                 width: fit-content;
-                h4{
+                h2{
                     width: fit-content;
                     margin: 0 auto !important;
                     font-family: 'Luckiest Guy', cursive;
@@ -324,7 +333,7 @@
     .conteudo_post{
         $fonte: 'Baloo 2', cursive !important;
         p{
-            font-size: 1rem;
+            font-size: 1.3rem;
             margin:0;
             font-family: $fonte;
             
@@ -333,17 +342,32 @@
             font-size: 1.5rem;
             font-family: $fonte;
         }
-        ul{
-            display: flex;
+        ol{
+
             flex-wrap: wrap;
             justify-content: space-between;
+            li{
+                font-size: 1.3rem;
+                margin:0;
+                font-family: $fonte;
+            }
+        }
+        ul{
+
+            flex-wrap: wrap;
+            justify-content: space-between;
+            li{
+                font-size: 1.3rem;
+                margin:0;
+                font-family: $fonte;
+            }
         }
     }
     h3, h5 a{
         font-family: 'Baloo 2', cursive !important;
     }
     h5 a{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     .img-carrossel{
         $tc: 4rem;
@@ -365,7 +389,7 @@
         @include logo(footer);
         a{
             width: 100%;
-            justify-content: end;
+            justify-content: center;
             .textoLogo{
                 width: fit-content;
             }
