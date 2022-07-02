@@ -11,10 +11,10 @@
                                 <div class="container pb-2">
                                     <section class="row container-posts me-md-1">
                                         <div class="col-12 d-flex align-items-center flex-wrap">
-                                            <img width="200" height="200" class="col-12 col-md-2 img-fluid" src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'thumbnail'); ?>" alt="<?php the_title() ?>">
-                                            <div class="col-12 col-md-10 ps-3 resumo_posts">
-                                                <h2><?php the_title(); ?></h2>
-                                                <p><?php echo get_the_excerpt(); ?></p>
+                                            <img width="200" height="200" class="col-2 col-md-2 img-fluid" src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'thumbnail'); ?>" alt="<?php the_title() ?>">
+                                            <div class="col-10 col-md-10 ps-3 resumo_posts">
+                                                <h2><a href="<?php echo get_permalink();?>"><?php the_title(); ?></a></h2>
+                                                <p class="d-none d-md-block"><?php echo get_the_excerpt(); ?></p>
                                             </div>
                                         </div>
                                     </section>

@@ -294,7 +294,7 @@
     "stats.access_log.format": "%h %l %u %t \\\"%r\\\" %>s %O \\\"%{Referer}i\\\" \\\"%{User-Agent}i\\\"",
     "stats.access_log.webserver": "apache",
     "minify.configuration_overloaded": false,
-    "minify.enabled": false,
+    "minify.enabled": true,
     "minify.auto": true,
     "minify.debug": false,
     "minify.engine": "file",
@@ -339,13 +339,13 @@
     "minify.css.enable": true,
     "minify.css.engine": "css",
     "minify.css.method": "both",
-    "minify.css.http2push": false,
+    "minify.css.http2push": true,
     "minify.css.strip.comments": false,
     "minify.css.strip.crlf": false,
     "minify.css.embed": false,
-    "minify.css.imports": "",
+    "minify.css.imports": "bubble",
     "minify.css.groups": [],
-    "minify.js.http2push": false,
+    "minify.js.http2push": true,
     "minify.js.enable": true,
     "minify.js.engine": "js",
     "minify.js.method": "both",
@@ -392,10 +392,18 @@
     "minify.htmltidy.options.hide-comments": true,
     "minify.htmltidy.options.wrap": 0,
     "minify.reject.logged": false,
-    "minify.reject.ua": [],
-    "minify.reject.uri": [],
-    "minify.reject.files.js": [],
-    "minify.reject.files.css": [],
+    "minify.reject.ua": [
+        ""
+    ],
+    "minify.reject.uri": [
+        ""
+    ],
+    "minify.reject.files.js": [
+        ""
+    ],
+    "minify.reject.files.css": [
+        ""
+    ],
     "minify.cache.files": [
         ""
     ],

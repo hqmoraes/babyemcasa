@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title><?php echo get_bloginfo('name') ?></title>
+    <meta name="google-site-verification" content="EEsBaB8EZbyoZOXdg8Q_ReQN2JuhjCfiYj9w4bumg2o" />
     <?php wp_head(); ?>
-<!--    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6299333406589809" crossorigin="anonymous"></script> -->
 </head>
 <body <?php body_class(); ?>>
 <header>

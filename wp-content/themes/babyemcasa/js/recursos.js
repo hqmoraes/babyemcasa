@@ -67,14 +67,6 @@ document.addEventListener("DOMContentLoaded", function(){
     criarBotao.setAttribute('onclick','menuOutrosSites()')
     fecharMenu.prepend(criarBotao);
 
-
-    let logoFooter = document.querySelector('.logoFooter')
-    let logoMontado = document.querySelector('.logoMontado')
-
-    logoFooter.appendChild(logoMontado.cloneNode(true))
-
-    document.querySelector('.logoMontado a .textoLogo .logoP2').style.width = "3.8rem"
-
     document.querySelectorAll('p a').forEach(video=>{
         if(/^vídeo/.test(video.innerText)){
             vd = video.href.substring(video.href.lastIndexOf('/'))

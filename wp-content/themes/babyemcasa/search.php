@@ -3,14 +3,14 @@
 <h1 class="search-title">
 <?php echo $wp_query->found_posts; ?> <?php _e( 'resultados para', 'locale' ); ?>: "<?php the_search_query(); ?>"
 </h1>
-<?php   
+<?php 
     if ( have_posts() ) {
         while ( have_posts() ) {
             the_post(); ?>
-                    <section class="container container_posts mb-2">
+                    <section class="container container-posts mb-2">
                         <div class="row align-items-center">
                             <div class="col-4 col-md-3">
-                                <div class="imagem_posts my-2" style="background-image: url(<?php echo get_the_post_thumbnail_url(get_the_ID(),'medium'); ?>)"></div>
+                                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'medium'); ?>" alt="<?php the_title();?>">
                             </div>
                             <div class="titulo_posts col-8 col-md-9"><h1><?php the_title(); ?></h1></div>
                         </div>
@@ -26,10 +26,5 @@
         wp_reset_postdata();
     }
 ?>
-        </div>
-        <aside class="col-md-2 mt-4 mb-2">
-            <?php get_template_part('template-parts/navigation/barra_lateral'); ?>
-        </aside>
-    </div>
 <?php get_template_part('template-parts/navigation/paginar'); ?>
 <?php get_footer(); ?>
