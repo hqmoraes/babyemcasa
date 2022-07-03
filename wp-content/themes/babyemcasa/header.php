@@ -13,8 +13,8 @@
         <div class="row topo align-items-center">
             <div class="col-10 mx-auto">
                 <div class="row align-items-center">
-                    <div class="col-4 logoMontado">
-                        <a href="/"><p class="logoTexto"><img src="https://babyemcasa.com/wp-content/uploads/2022/05/baby-svgrepo-com.svg" alt="Baby em casa"></p><p class="textoLogo"><?php echo get_bloginfo('name') ?></p></a>
+                    <div class="col-4 logo">
+                        <?php echo get_custom_logo();?>
                     </div>
                     <div class="col-4">
                     </div>

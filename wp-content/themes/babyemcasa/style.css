@@ -11,9 +11,6 @@ Tags: clean
 Text Domain: babyemcasa
 
 */
-/*
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
-*/
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 @font-face {
@@ -21,14 +18,29 @@ Text Domain: babyemcasa
   src: url(fontes/Baloo_2/Baloo2-VariableFont_wght.ttf);
   font-display: swap;
 }
-/* @import url('https://fonts.googleapis.com/css2?family=Amita&display=swap'); */
 @media screen and (min-width: 200px) {
   html {
     font-size: 3vw;
   }
+  html p {
+    font-family: "Baloo 2", cursive !important;
+    padding: 0.5rem 0;
+  }
+  html h2, html h3 {
+    font-family: "Baloo 2", cursive !important;
+    font-weight: bold;
+    padding: 0.5rem 0;
+  }
+  html h3 {
+    font-size: 1.4rem;
+  }
 
   html {
     scroll-padding-top: 4rem;
+  }
+  html header .logo img {
+    width: 7rem;
+    height: auto;
   }
   html img {
     max-width: 100%;
@@ -100,32 +112,6 @@ Text Domain: babyemcasa
     margin-bottom: 0;
     font-size: 1.5rem;
   }
-  html header a img {
-    height: 100%;
-    width: 3rem;
-  }
-  html header a .textoLogo {
-    font-size: 1rem;
-    width: 3rem;
-    line-height: 1rem;
-    padding-left: 0.2rem;
-    padding-top: 1.8rem;
-    position: relative;
-  }
-  html header a .textoLogo .logoP1 {
-    transform: rotate(-45deg);
-    position: absolute;
-    left: -20%;
-    font-size: 0.6rem;
-    top: 75%;
-  }
-  html header a .textoLogo .logoP2 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: #e0e1e9;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
-    font-family: "Amita", cursive;
-  }
   html header .menu {
     z-index: 1;
     border: none;
@@ -150,11 +136,11 @@ Text Domain: babyemcasa
   html .blogTitulo .tituloParts h2 {
     width: fit-content;
     margin: 0 auto !important;
-    font-family: "Luckiest Guy", cursive;
+    font-family: "Luckiest Guy", cursive !important;
     font-size: 3rem;
     color: #e0e1e9;
     text-shadow: 2px 2px 5px white;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: black;
   }
   html .blogTitulo .tituloParts p {
@@ -166,6 +152,18 @@ Text Domain: babyemcasa
 
   html {
     font-size: 3vw;
+  }
+  html p {
+    font-family: "Baloo 2", cursive !important;
+    padding: 0.5rem 0;
+  }
+  html h2, html h3 {
+    font-family: "Baloo 2", cursive !important;
+    font-weight: bold;
+    padding: 0.5rem 0;
+  }
+  html h3 {
+    font-size: 1.4rem;
   }
 
   .menuPrincipal ul {
@@ -373,32 +371,6 @@ Text Domain: babyemcasa
   footer a p {
     margin-bottom: 0;
     font-size: 1.5rem;
-  }
-  footer a img {
-    height: 100%;
-    width: 3rem;
-  }
-  footer a .textoLogo {
-    font-size: 1rem;
-    width: 3rem;
-    line-height: 1rem;
-    padding-left: 0.2rem;
-    padding-top: 1.8rem;
-    position: relative;
-  }
-  footer a .textoLogo .logoP1 {
-    transform: rotate(-45deg);
-    position: absolute;
-    left: -20%;
-    font-size: 0.6rem;
-    top: 75%;
-  }
-  footer a .textoLogo .logoP2 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: #e0e1e9;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
-    font-family: "Amita", cursive;
   }
   footer a {
     width: 100%;
@@ -549,9 +521,25 @@ Text Domain: babyemcasa
   html {
     font-size: 1.5vw;
   }
+  html p {
+    font-family: "Baloo 2", cursive !important;
+    padding: 0.5rem 0;
+  }
+  html h2, html h3 {
+    font-family: "Baloo 2", cursive !important;
+    font-weight: bold;
+    padding: 0.5rem 0;
+  }
+  html h3 {
+    font-size: 1.4rem;
+  }
 
   html {
     scroll-padding-top: 4rem;
+  }
+  html header .logo img {
+    width: 7rem;
+    height: auto;
   }
   html img {
     max-width: 100%;
@@ -623,32 +611,6 @@ Text Domain: babyemcasa
     margin-bottom: 0;
     font-size: 1.5rem;
   }
-  html header a img {
-    height: 100%;
-    width: 3rem;
-  }
-  html header a .textoLogo {
-    font-size: 1rem;
-    width: 3rem;
-    line-height: 1rem;
-    padding-left: 0.2rem;
-    padding-top: 1.8rem;
-    position: relative;
-  }
-  html header a .textoLogo .logoP1 {
-    transform: rotate(-45deg);
-    position: absolute;
-    left: -20%;
-    font-size: 0.6rem;
-    top: 75%;
-  }
-  html header a .textoLogo .logoP2 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: #e0e1e9;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
-    font-family: "Amita", cursive;
-  }
   html header .menu {
     z-index: 1;
     border: none;
@@ -673,11 +635,11 @@ Text Domain: babyemcasa
   html .blogTitulo .tituloParts h2 {
     width: fit-content;
     margin: 0 auto !important;
-    font-family: "Luckiest Guy", cursive;
+    font-family: "Luckiest Guy", cursive !important;
     font-size: 3rem;
     color: #e0e1e9;
     text-shadow: 2px 2px 5px white;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: black;
   }
   html .blogTitulo .tituloParts p {
@@ -689,6 +651,18 @@ Text Domain: babyemcasa
 
   html {
     font-size: 1.5vw;
+  }
+  html p {
+    font-family: "Baloo 2", cursive !important;
+    padding: 0.5rem 0;
+  }
+  html h2, html h3 {
+    font-family: "Baloo 2", cursive !important;
+    font-weight: bold;
+    padding: 0.5rem 0;
+  }
+  html h3 {
+    font-size: 1.4rem;
   }
 
   .menuPrincipal ul {
@@ -896,32 +870,6 @@ Text Domain: babyemcasa
   footer a p {
     margin-bottom: 0;
     font-size: 1.5rem;
-  }
-  footer a img {
-    height: 100%;
-    width: 3rem;
-  }
-  footer a .textoLogo {
-    font-size: 1rem;
-    width: 3rem;
-    line-height: 1rem;
-    padding-left: 0.2rem;
-    padding-top: 1.8rem;
-    position: relative;
-  }
-  footer a .textoLogo .logoP1 {
-    transform: rotate(-45deg);
-    position: absolute;
-    left: -20%;
-    font-size: 0.6rem;
-    top: 75%;
-  }
-  footer a .textoLogo .logoP2 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: #e0e1e9;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
-    font-family: "Amita", cursive;
   }
   footer a {
     width: 100%;
@@ -1072,9 +1020,25 @@ Text Domain: babyemcasa
   html {
     font-size: 1.2vw;
   }
+  html p {
+    font-family: "Baloo 2", cursive !important;
+    padding: 0.5rem 0;
+  }
+  html h2, html h3 {
+    font-family: "Baloo 2", cursive !important;
+    font-weight: bold;
+    padding: 0.5rem 0;
+  }
+  html h3 {
+    font-size: 1.4rem;
+  }
 
   html {
     scroll-padding-top: 4rem;
+  }
+  html header .logo img {
+    width: 7rem;
+    height: auto;
   }
   html img {
     max-width: 100%;
@@ -1146,32 +1110,6 @@ Text Domain: babyemcasa
     margin-bottom: 0;
     font-size: 1.5rem;
   }
-  html header a img {
-    height: 100%;
-    width: 3rem;
-  }
-  html header a .textoLogo {
-    font-size: 1rem;
-    width: 3rem;
-    line-height: 1rem;
-    padding-left: 0.2rem;
-    padding-top: 1.8rem;
-    position: relative;
-  }
-  html header a .textoLogo .logoP1 {
-    transform: rotate(-45deg);
-    position: absolute;
-    left: -20%;
-    font-size: 0.6rem;
-    top: 75%;
-  }
-  html header a .textoLogo .logoP2 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: #e0e1e9;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
-    font-family: "Amita", cursive;
-  }
   html header .menu {
     z-index: 1;
     border: none;
@@ -1196,11 +1134,11 @@ Text Domain: babyemcasa
   html .blogTitulo .tituloParts h2 {
     width: fit-content;
     margin: 0 auto !important;
-    font-family: "Luckiest Guy", cursive;
+    font-family: "Luckiest Guy", cursive !important;
     font-size: 3rem;
     color: #e0e1e9;
     text-shadow: 2px 2px 5px white;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: black;
   }
   html .blogTitulo .tituloParts p {
@@ -1212,6 +1150,18 @@ Text Domain: babyemcasa
 
   html {
     font-size: 1.2vw;
+  }
+  html p {
+    font-family: "Baloo 2", cursive !important;
+    padding: 0.5rem 0;
+  }
+  html h2, html h3 {
+    font-family: "Baloo 2", cursive !important;
+    font-weight: bold;
+    padding: 0.5rem 0;
+  }
+  html h3 {
+    font-size: 1.4rem;
   }
 
   .menuPrincipal ul {
@@ -1419,32 +1369,6 @@ Text Domain: babyemcasa
   footer a p {
     margin-bottom: 0;
     font-size: 1.5rem;
-  }
-  footer a img {
-    height: 100%;
-    width: 3rem;
-  }
-  footer a .textoLogo {
-    font-size: 1rem;
-    width: 3rem;
-    line-height: 1rem;
-    padding-left: 0.2rem;
-    padding-top: 1.8rem;
-    position: relative;
-  }
-  footer a .textoLogo .logoP1 {
-    transform: rotate(-45deg);
-    position: absolute;
-    left: -20%;
-    font-size: 0.6rem;
-    top: 75%;
-  }
-  footer a .textoLogo .logoP2 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: #e0e1e9;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
-    font-family: "Amita", cursive;
   }
   footer a {
     width: 100%;
@@ -1591,22 +1515,34 @@ Text Domain: babyemcasa
     max-width: 100%;
   }
 }
-/*
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
-*/
 @font-face {
   font-family: "Baloo 2";
   src: url(fontes/Baloo_2/Baloo2-VariableFont_wght.ttf);
   font-display: swap;
 }
-/* @import url('https://fonts.googleapis.com/css2?family=Amita&display=swap'); */
 @media screen and (min-width: 992px) {
   html {
     font-size: 1.3vw;
   }
+  html p {
+    font-family: "Baloo 2", cursive !important;
+    padding: 0.5rem 0;
+  }
+  html h2, html h3 {
+    font-family: "Baloo 2", cursive !important;
+    font-weight: bold;
+    padding: 0.5rem 0;
+  }
+  html h3 {
+    font-size: 1.4rem;
+  }
 
   html {
     scroll-padding-top: 4rem;
+  }
+  html header .logo img {
+    width: 7rem;
+    height: auto;
   }
   html img {
     max-width: 100%;
@@ -1678,32 +1614,6 @@ Text Domain: babyemcasa
     margin-bottom: 0;
     font-size: 1.5rem;
   }
-  html header a img {
-    height: 100%;
-    width: 3rem;
-  }
-  html header a .textoLogo {
-    font-size: 1rem;
-    width: 3rem;
-    line-height: 1rem;
-    padding-left: 0.2rem;
-    padding-top: 1.8rem;
-    position: relative;
-  }
-  html header a .textoLogo .logoP1 {
-    transform: rotate(-45deg);
-    position: absolute;
-    left: -20%;
-    font-size: 0.6rem;
-    top: 75%;
-  }
-  html header a .textoLogo .logoP2 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: #e0e1e9;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
-    font-family: "Amita", cursive;
-  }
   html header .menu {
     z-index: 1;
     border: none;
@@ -1728,11 +1638,11 @@ Text Domain: babyemcasa
   html .blogTitulo .tituloParts h2 {
     width: fit-content;
     margin: 0 auto !important;
-    font-family: "Luckiest Guy", cursive;
+    font-family: "Luckiest Guy", cursive !important;
     font-size: 3rem;
     color: #e0e1e9;
     text-shadow: 2px 2px 5px white;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: black;
   }
   html .blogTitulo .tituloParts p {
@@ -1744,6 +1654,18 @@ Text Domain: babyemcasa
 
   html {
     font-size: 1.3vw;
+  }
+  html p {
+    font-family: "Baloo 2", cursive !important;
+    padding: 0.5rem 0;
+  }
+  html h2, html h3 {
+    font-family: "Baloo 2", cursive !important;
+    font-weight: bold;
+    padding: 0.5rem 0;
+  }
+  html h3 {
+    font-size: 1.4rem;
   }
 
   .menuPrincipal ul {
@@ -1951,32 +1873,6 @@ Text Domain: babyemcasa
   footer a p {
     margin-bottom: 0;
     font-size: 1.5rem;
-  }
-  footer a img {
-    height: 100%;
-    width: 3rem;
-  }
-  footer a .textoLogo {
-    font-size: 1rem;
-    width: 3rem;
-    line-height: 1rem;
-    padding-left: 0.2rem;
-    padding-top: 1.8rem;
-    position: relative;
-  }
-  footer a .textoLogo .logoP1 {
-    transform: rotate(-45deg);
-    position: absolute;
-    left: -20%;
-    font-size: 0.6rem;
-    top: 75%;
-  }
-  footer a .textoLogo .logoP2 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: #e0e1e9;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
-    font-family: "Amita", cursive;
   }
   footer a {
     width: 100%;
@@ -2127,9 +2023,25 @@ Text Domain: babyemcasa
   html {
     font-size: 18px;
   }
+  html p {
+    font-family: "Baloo 2", cursive !important;
+    padding: 0.5rem 0;
+  }
+  html h2, html h3 {
+    font-family: "Baloo 2", cursive !important;
+    font-weight: bold;
+    padding: 0.5rem 0;
+  }
+  html h3 {
+    font-size: 1.4rem;
+  }
 
   html {
     scroll-padding-top: 4rem;
+  }
+  html header .logo img {
+    width: 7rem;
+    height: auto;
   }
   html img {
     max-width: 100%;
@@ -2201,32 +2113,6 @@ Text Domain: babyemcasa
     margin-bottom: 0;
     font-size: 1.5rem;
   }
-  html header a img {
-    height: 100%;
-    width: 3rem;
-  }
-  html header a .textoLogo {
-    font-size: 1rem;
-    width: 3rem;
-    line-height: 1rem;
-    padding-left: 0.2rem;
-    padding-top: 1.8rem;
-    position: relative;
-  }
-  html header a .textoLogo .logoP1 {
-    transform: rotate(-45deg);
-    position: absolute;
-    left: -20%;
-    font-size: 0.6rem;
-    top: 75%;
-  }
-  html header a .textoLogo .logoP2 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: #e0e1e9;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
-    font-family: "Amita", cursive;
-  }
   html header .menu {
     z-index: 1;
     border: none;
@@ -2251,11 +2137,11 @@ Text Domain: babyemcasa
   html .blogTitulo .tituloParts h2 {
     width: fit-content;
     margin: 0 auto !important;
-    font-family: "Luckiest Guy", cursive;
+    font-family: "Luckiest Guy", cursive !important;
     font-size: 3rem;
     color: #e0e1e9;
     text-shadow: 2px 2px 5px white;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: black;
   }
   html .blogTitulo .tituloParts p {
@@ -2267,6 +2153,18 @@ Text Domain: babyemcasa
 
   html {
     font-size: 18px;
+  }
+  html p {
+    font-family: "Baloo 2", cursive !important;
+    padding: 0.5rem 0;
+  }
+  html h2, html h3 {
+    font-family: "Baloo 2", cursive !important;
+    font-weight: bold;
+    padding: 0.5rem 0;
+  }
+  html h3 {
+    font-size: 1.4rem;
   }
 
   .menuPrincipal ul {
@@ -2474,32 +2372,6 @@ Text Domain: babyemcasa
   footer a p {
     margin-bottom: 0;
     font-size: 1.5rem;
-  }
-  footer a img {
-    height: 100%;
-    width: 3rem;
-  }
-  footer a .textoLogo {
-    font-size: 1rem;
-    width: 3rem;
-    line-height: 1rem;
-    padding-left: 0.2rem;
-    padding-top: 1.8rem;
-    position: relative;
-  }
-  footer a .textoLogo .logoP1 {
-    transform: rotate(-45deg);
-    position: absolute;
-    left: -20%;
-    font-size: 0.6rem;
-    top: 75%;
-  }
-  footer a .textoLogo .logoP2 {
-    font-weight: bold;
-    font-size: 2rem;
-    color: #e0e1e9;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.599);
-    font-family: "Amita", cursive;
   }
   footer a {
     width: 100%;

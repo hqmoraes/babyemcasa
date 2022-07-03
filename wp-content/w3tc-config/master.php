@@ -336,7 +336,7 @@
         "RSPEAK_",
         "mfunc"
     ],
-    "minify.css.enable": true,
+    "minify.css.enable": false,
     "minify.css.engine": "css",
     "minify.css.method": "both",
     "minify.css.http2push": true,
@@ -346,7 +346,7 @@
     "minify.css.imports": "bubble",
     "minify.css.groups": [],
     "minify.js.http2push": true,
-    "minify.js.enable": true,
+    "minify.js.enable": false,
     "minify.js.engine": "js",
     "minify.js.method": "both",
     "minify.js.combine.header": false,
