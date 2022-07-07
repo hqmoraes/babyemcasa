@@ -33,17 +33,31 @@
     html{
         font-size: $tm;
         $bs-body-font-family: 'Baloo 2', cursive !important;
-        p{
+        p, section div{
             font-family: 'Baloo 2', cursive !important;
             padding: 0.5rem 0;
+            font-size: 1.2rem;
         }
         h2, h3{
             font-family: 'Baloo 2', cursive !important;
             font-weight: bold;
             padding: 0.5rem 0;
         }
+        h2{
+            font-size: 1.7rem;
+        }
         h3{
             font-size: 1.4rem;
+        }
+        .bgtop{
+            h1{
+                text-shadow: 0 0 30px white;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: black;
+                font-family: 'Luckiest Guy', cursive;
+                color: #e4b4c2;
+                font-size: 2rem;
+            }
         }
     }
 }
@@ -328,7 +342,7 @@
             
         }
         h2{
-            font-size: 1.5rem;
+            font-size: 1.7rem;
             font-family: $fonte;
         }
         ol{

@@ -3,7 +3,7 @@
         <div class="col-12 col-md-10">
             <?php   $cat = get_cat_ID(single_cat_title("", false));
                 $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-                $query = array('orderby'=>'title','order'=>'DESC','cat'=>$cat,'posts_per_page'=>10,'paged'=>$paged);
+                $query = array('orderby'=>'date','order'=>'ASC','cat'=>$cat,'posts_per_page'=>5,'paged'=>$paged);
                 $exibir_posts = new WP_Query($query);
                         if ( $exibir_posts->have_posts() ) {
                             while ( $exibir_posts->have_posts() ) {

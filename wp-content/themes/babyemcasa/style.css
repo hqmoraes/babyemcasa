@@ -22,17 +22,29 @@ Text Domain: babyemcasa
   html {
     font-size: 3vw;
   }
-  html p {
+  html p, html section div {
     font-family: "Baloo 2", cursive !important;
     padding: 0.5rem 0;
+    font-size: 1.2rem;
   }
   html h2, html h3 {
     font-family: "Baloo 2", cursive !important;
     font-weight: bold;
     padding: 0.5rem 0;
   }
+  html h2 {
+    font-size: 1.7rem;
+  }
   html h3 {
     font-size: 1.4rem;
+  }
+  html .bgtop h1 {
+    text-shadow: 0 0 30px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "Luckiest Guy", cursive;
+    color: #e4b4c2;
+    font-size: 2rem;
   }
 
   html {
@@ -153,17 +165,29 @@ Text Domain: babyemcasa
   html {
     font-size: 3vw;
   }
-  html p {
+  html p, html section div {
     font-family: "Baloo 2", cursive !important;
     padding: 0.5rem 0;
+    font-size: 1.2rem;
   }
   html h2, html h3 {
     font-family: "Baloo 2", cursive !important;
     font-weight: bold;
     padding: 0.5rem 0;
   }
+  html h2 {
+    font-size: 1.7rem;
+  }
   html h3 {
     font-size: 1.4rem;
+  }
+  html .bgtop h1 {
+    text-shadow: 0 0 30px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "Luckiest Guy", cursive;
+    color: #e4b4c2;
+    font-size: 2rem;
   }
 
   .menuPrincipal ul {
@@ -315,7 +339,7 @@ Text Domain: babyemcasa
     font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post ol {
@@ -521,17 +545,29 @@ Text Domain: babyemcasa
   html {
     font-size: 1.5vw;
   }
-  html p {
+  html p, html section div {
     font-family: "Baloo 2", cursive !important;
     padding: 0.5rem 0;
+    font-size: 1.2rem;
   }
   html h2, html h3 {
     font-family: "Baloo 2", cursive !important;
     font-weight: bold;
     padding: 0.5rem 0;
   }
+  html h2 {
+    font-size: 1.7rem;
+  }
   html h3 {
     font-size: 1.4rem;
+  }
+  html .bgtop h1 {
+    text-shadow: 0 0 30px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "Luckiest Guy", cursive;
+    color: #e4b4c2;
+    font-size: 2rem;
   }
 
   html {
@@ -652,17 +688,29 @@ Text Domain: babyemcasa
   html {
     font-size: 1.5vw;
   }
-  html p {
+  html p, html section div {
     font-family: "Baloo 2", cursive !important;
     padding: 0.5rem 0;
+    font-size: 1.2rem;
   }
   html h2, html h3 {
     font-family: "Baloo 2", cursive !important;
     font-weight: bold;
     padding: 0.5rem 0;
   }
+  html h2 {
+    font-size: 1.7rem;
+  }
   html h3 {
     font-size: 1.4rem;
+  }
+  html .bgtop h1 {
+    text-shadow: 0 0 30px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "Luckiest Guy", cursive;
+    color: #e4b4c2;
+    font-size: 2rem;
   }
 
   .menuPrincipal ul {
@@ -814,7 +862,7 @@ Text Domain: babyemcasa
     font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post ol {
@@ -1020,17 +1068,29 @@ Text Domain: babyemcasa
   html {
     font-size: 1.2vw;
   }
-  html p {
+  html p, html section div {
     font-family: "Baloo 2", cursive !important;
     padding: 0.5rem 0;
+    font-size: 1.2rem;
   }
   html h2, html h3 {
     font-family: "Baloo 2", cursive !important;
     font-weight: bold;
     padding: 0.5rem 0;
   }
+  html h2 {
+    font-size: 1.7rem;
+  }
   html h3 {
     font-size: 1.4rem;
+  }
+  html .bgtop h1 {
+    text-shadow: 0 0 30px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "Luckiest Guy", cursive;
+    color: #e4b4c2;
+    font-size: 2rem;
   }
 
   html {
@@ -1151,17 +1211,29 @@ Text Domain: babyemcasa
   html {
     font-size: 1.2vw;
   }
-  html p {
+  html p, html section div {
     font-family: "Baloo 2", cursive !important;
     padding: 0.5rem 0;
+    font-size: 1.2rem;
   }
   html h2, html h3 {
     font-family: "Baloo 2", cursive !important;
     font-weight: bold;
     padding: 0.5rem 0;
   }
+  html h2 {
+    font-size: 1.7rem;
+  }
   html h3 {
     font-size: 1.4rem;
+  }
+  html .bgtop h1 {
+    text-shadow: 0 0 30px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "Luckiest Guy", cursive;
+    color: #e4b4c2;
+    font-size: 2rem;
   }
 
   .menuPrincipal ul {
@@ -1313,7 +1385,7 @@ Text Domain: babyemcasa
     font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post ol {
@@ -1524,17 +1596,29 @@ Text Domain: babyemcasa
   html {
     font-size: 1.3vw;
   }
-  html p {
+  html p, html section div {
     font-family: "Baloo 2", cursive !important;
     padding: 0.5rem 0;
+    font-size: 1.2rem;
   }
   html h2, html h3 {
     font-family: "Baloo 2", cursive !important;
     font-weight: bold;
     padding: 0.5rem 0;
   }
+  html h2 {
+    font-size: 1.7rem;
+  }
   html h3 {
     font-size: 1.4rem;
+  }
+  html .bgtop h1 {
+    text-shadow: 0 0 30px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "Luckiest Guy", cursive;
+    color: #e4b4c2;
+    font-size: 2rem;
   }
 
   html {
@@ -1655,17 +1739,29 @@ Text Domain: babyemcasa
   html {
     font-size: 1.3vw;
   }
-  html p {
+  html p, html section div {
     font-family: "Baloo 2", cursive !important;
     padding: 0.5rem 0;
+    font-size: 1.2rem;
   }
   html h2, html h3 {
     font-family: "Baloo 2", cursive !important;
     font-weight: bold;
     padding: 0.5rem 0;
   }
+  html h2 {
+    font-size: 1.7rem;
+  }
   html h3 {
     font-size: 1.4rem;
+  }
+  html .bgtop h1 {
+    text-shadow: 0 0 30px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "Luckiest Guy", cursive;
+    color: #e4b4c2;
+    font-size: 2rem;
   }
 
   .menuPrincipal ul {
@@ -1817,7 +1913,7 @@ Text Domain: babyemcasa
     font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post ol {
@@ -2023,17 +2119,29 @@ Text Domain: babyemcasa
   html {
     font-size: 18px;
   }
-  html p {
+  html p, html section div {
     font-family: "Baloo 2", cursive !important;
     padding: 0.5rem 0;
+    font-size: 1.2rem;
   }
   html h2, html h3 {
     font-family: "Baloo 2", cursive !important;
     font-weight: bold;
     padding: 0.5rem 0;
   }
+  html h2 {
+    font-size: 1.7rem;
+  }
   html h3 {
     font-size: 1.4rem;
+  }
+  html .bgtop h1 {
+    text-shadow: 0 0 30px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "Luckiest Guy", cursive;
+    color: #e4b4c2;
+    font-size: 2rem;
   }
 
   html {
@@ -2154,17 +2262,29 @@ Text Domain: babyemcasa
   html {
     font-size: 18px;
   }
-  html p {
+  html p, html section div {
     font-family: "Baloo 2", cursive !important;
     padding: 0.5rem 0;
+    font-size: 1.2rem;
   }
   html h2, html h3 {
     font-family: "Baloo 2", cursive !important;
     font-weight: bold;
     padding: 0.5rem 0;
   }
+  html h2 {
+    font-size: 1.7rem;
+  }
   html h3 {
     font-size: 1.4rem;
+  }
+  html .bgtop h1 {
+    text-shadow: 0 0 30px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "Luckiest Guy", cursive;
+    color: #e4b4c2;
+    font-size: 2rem;
   }
 
   .menuPrincipal ul {
@@ -2316,7 +2436,7 @@ Text Domain: babyemcasa
     font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: "Baloo 2", cursive !important;
   }
   .conteudo_post ol {

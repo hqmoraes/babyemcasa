@@ -3,15 +3,15 @@
 <div class="row justify-content-center" style="margin-bottom: 1rem;">
     <div class="col-12 d-flex flex-wrap">
         <div class="col-12 col-md-10 pe-2">
-            <section class="container_post col-12 p-4">
+        <section class="container_post col-12 p-4">
                 <div class="row align-items-center mt-2">
-                    <div class="titulo_posts col-6 col-md-8">
+                    <div class="bgtop col-6 col-md-8">
                         <h1><?php the_title(); ?></h1>
                         <script>
                             document.title = document.querySelector('h1').innerText;
                         </script>
                     </div>
-                    <div class="col-6 col-md-4 mb-2"><img width="200" style="border-radius: 1rem;" class="img-fluid" src="<?php echo get_the_post_thumbnail_url(get_the_id(),'medium') ?>" alt="<?php the_title()?>"></div>
+                    <div class="col-6 col-md-4 mb-2"><img width="400" style="border-radius: 1rem;" class="img-fluid" src="<?php echo get_the_post_thumbnail_url(get_the_id(),'medium') ?>" alt="<?php the_title()?>"></div>
                 </div>
                 <div class="conteudo_post col-12" style="font-size: 1.5rem"><p><?php the_content();  ?><p></div>
                 <div class="branco"></div>
