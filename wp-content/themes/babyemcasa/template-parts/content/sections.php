@@ -9,6 +9,19 @@
                             while ( $exibir_posts->have_posts() ) {
                                 $exibir_posts->the_post(); ?>
                                 <div class="container pb-2">
+
+                                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6299333406589809"
+                                    crossorigin="anonymous"></script>
+                                <ins class="adsbygoogle"
+                                    style="display:block"
+                                    data-ad-format="fluid"
+                                    data-ad-layout-key="-hj-x+17-2e+86"
+                                    data-ad-client="ca-pub-6299333406589809"
+                                    data-ad-slot="3516177137"></ins>
+                                <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+
                                     <section class="row container-posts me-md-1">
                                         <div class="col-12 d-flex align-items-center flex-wrap">
                                             <img width="200" height="200" class="col-2 col-md-2 img-fluid" src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'thumbnail'); ?>" alt="<?php the_title() ?>">
